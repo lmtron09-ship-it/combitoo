@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "X": {
+      "item": "tconstruct:copper_nugget"
+    },
+    "*": {
+      "item": "minecraft:glowstone_dust"
+    }
+  },
+  "pattern": [
+    "X*X",
+    "X#X",
+    "XRX"
+  ],
+  "result": {
+    "count": 8,
+    "item": "modernminecarts:copper_rail"
+  },
+  "show_notification": true
+}

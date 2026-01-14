@@ -1,0 +1,29 @@
+{
+    "key": "queens_slime",
+    "category": "metal",
+    "primary": 9.24,
+    "secondary": 2.9,
+    "tertiary": 3.5,
+    "durability": 2843,
+    "integrityCost": 2,
+    "integrityGain": 7,
+    "magicCapacity": 105,
+    "toolLevel": 7,
+    "toolEfficiency": 8,
+    "tintOverrides": false,
+    "tints": {
+        "glyph": "54b04a",
+        "texture": "42fb2e"
+    },
+    "textures": [
+        "tconstruct",
+        "metal",
+        "shiny"
+    ],
+    "material": {
+        "items": [ "tconstruct:queens_slime_ingot" ]
+    },
+    "requiredTools": {
+        "hammer_dig": 4
+    }
+}

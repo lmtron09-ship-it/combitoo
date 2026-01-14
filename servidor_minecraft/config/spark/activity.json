@@ -1,0 +1,41 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "CubicTron",
+      "uniqueId": "59ef8755-dd35-41ff-813f-ac6bcb38d455"
+    },
+    "time": 1767894543492,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/d0dtm7IVAo"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "CubicTron",
+      "uniqueId": "59ef8755-dd35-41ff-813f-ac6bcb38d455"
+    },
+    "time": 1767417584666,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/xESOSnXZSW"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "CubicTron",
+      "uniqueId": "59ef8755-dd35-41ff-813f-ac6bcb38d455"
+    },
+    "time": 1767417575138,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/Z0b6rJ5Rjc"
+    }
+  }
+]

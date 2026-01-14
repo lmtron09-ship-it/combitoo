@@ -1,0 +1,17 @@
+{
+    "block.tconstruct.molten_netherite_fluid": "Molten Dendrite",
+    "fluid.tconstruct.flowing_molten_netherite": "Flowing Molten Dendrite",
+    "fluid.tconstruct.molten_netherite": "Molten Dendrite",
+    "fluid.tconstruct.molten_netherite.fluid_effect": "Molten dendrite is the highest base damage, for when you cannot wait for your target to bleed out.",
+    "advancements.tconstruct.tools.netherite_tier.description": "Create a tool with the dendrite mining tier",
+    "advancements.tconstruct.tools.netherite_tier.title": "Dendrite Tier",
+    "item.tconstruct.debris_nugget.tooltip": "Small shard of ancient dendrite, possibly can be melted to salvage",
+    "item.tconstruct.molten_netherite_bucket": "Molten Dendrite Bucket",
+    "item.tconstruct.netherite_item_frame": "Dendrite Item Frame",
+    "item.tconstruct.netherite_nugget": "Dendrite Nugget",
+    "material.tconstruct.netherite":  "Dendrite",
+    "modifier.tconstruct.netherite": "Dendrite",
+    "modifier.tconstruct.unbreakable.requirements": "Unbreakable requires Dendrite and Reinforced V to apply",
+    "modifier.tconstruct.worldbound.description": "A crude version of dendrite, granting immunity to external damage like fire, but no additional strength",
+    "stat.tconstruct.harvest_tier.minecraft.netherite": "Dendrite"
+}

@@ -1,0 +1,48 @@
+{
+	"levels": {
+		"1": {
+			"take": {
+				"type": "constant",
+				"value": 9
+			},
+			"trades": [
+				{
+					"sells": {"item": "emerald","count": 1},
+					"wants": [{"item": "tconstruct:cobalt_ingot","count":2}]
+				},
+				{
+					"sells": {"item": "golden_helmet","functions":[{"function":"enchant_randomly"}],"count": 1},
+					"wants": [{"item": "emerald","count":5},{"item":"golden_helmet"}]
+				},
+				{
+					"sells": {"item": "golden_chestplate","functions":[{"function":"enchant_randomly"}],"count": 1},
+					"wants": [{"item": "emerald","count":5},{"item":"golden_chestplate"}]
+				},
+				{
+					"sells": {"item": "golden_leggings","functions":[{"function":"enchant_randomly"}],"count": 1},
+					"wants": [{"item": "emerald","count":5},{"item":"golden_leggings"}]
+				},
+				{
+					"sells": {"item": "golden_boots","functions":[{"function":"enchant_randomly"}],"count": 1},
+					"wants": [{"item": "emerald","count":5},{"item":"golden_boots"}]
+				},
+				{
+					"sells": {"item": "diamond_helmet","functions":[{"function":"enchant_randomly"}],"count": 1},
+					"wants": [{"item": "emerald","count":8},{"item":"diamond_helmet"}]
+				},
+				{
+					"sells": {"item": "diamond_chestplate","functions":[{"function":"enchant_randomly"}],"count": 1},
+					"wants": [{"item": "emerald","count":8},{"item":"diamond_chestplate"}]
+				},
+				{
+					"sells": {"item": "diamond_leggings","functions":[{"function":"enchant_randomly"}],"count": 1},
+					"wants": [{"item": "emerald","count":8},{"item":"diamond_leggings"}]
+				},
+				{
+					"sells": {"item": "diamond_boots","functions":[{"function":"enchant_randomly"}],"count": 1},
+					"wants": [{"item": "emerald","count":8},{"item":"diamond_boots"}]
+				}
+			]
+		}
+	}
+}

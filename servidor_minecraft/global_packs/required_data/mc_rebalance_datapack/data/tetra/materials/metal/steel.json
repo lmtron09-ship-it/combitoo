@@ -1,0 +1,29 @@
+{
+    "key": "steel",
+    "category": "metal",
+    "primary": 7,
+    "secondary": 2.9,
+    "tertiary": 0,
+    "durability": 850,
+    "integrityCost": 2,
+    "integrityGain": 2,
+    "magicCapacity": 90,
+    "toolLevel": 6,
+    "toolEfficiency": 6,
+    "tintOverrides": false,
+    "tints": {
+        "glyph": "484f64",
+        "texture": "484f64"
+    },
+    "textures": [
+        "tconstruct",
+        "metal",
+        "shiny"
+    ],
+    "material": {
+        "items": [ "tconstruct:steel_ingot" ]
+    },
+    "requiredTools": {
+        "hammer_dig": 3
+    }
+}

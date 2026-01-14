@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "S": {
+      "item": "minecraft:sand"
+    },
+    "F": {
+      "item": "minecraft:flint"
+    }
+  },
+  "pattern": [
+    "SF",
+    "FS"
+  ],
+  "result": {
+    "count": 2,
+    "item": "minecraft:gravel"
+  },
+  "show_notification": true
+}

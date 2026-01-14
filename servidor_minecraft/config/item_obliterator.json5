@@ -1,0 +1,246 @@
+{
+  // -----------------------------------------------------------
+  //              Item Obliterator by ElocinDev
+  // -----------------------------------------------------------
+  //  
+  // How to add items?
+  //   - They are json strings, so you need to separate each
+  //     entry with a comma, except the last
+  //   - If you start an entry with !, it will be treated as a regular expression
+  //     Example: "!minecraft:.*_sword" to disable all swords
+  //  
+  // -----------------------------------------------------------
+  // Do not touch this
+  "configVersion": 2,
+  // -----------------------------------------------------------
+  // Items here will be unusable completely
+  //    Example: minecraft:diamond
+  "blacklisted_items": [
+	"paxelsfordummies:golden_paxel",
+    "advanced_copper:copper_axe",
+    "advanced_copper:copper_hammer",
+    "advanced_copper:copper_hoe",
+    "advanced_copper:copper_paxel",
+    "advanced_copper:copper_pickaxe",
+    "advanced_copper:copper_shovel",
+    "advanced_copper:copper_sword",
+    "advanced_copper:copper_excavator",
+	"tconstruct:repair_kit",
+	"tconstruct:repair_kit_cast",
+	"tconstruct:repair_kit_sand_cast",
+	"tconstruct:repair_kit_red_sand_cast",
+	"tconstruct:pick_head",
+	"tconstruct:pick_head_cast",
+	"tconstruct:pick_head_sand_cast",
+	"tconstruct:pick_head_red_sand_cast",
+	"tconstruct:small_axe_head",
+	"tconstruct:small_axe_head_cast",
+	"tconstruct:small_axe_head_sand_cast",
+	"tconstruct:small_axe_head_red_sand_cast",
+	"tconstruct:small_blade",
+	"tconstruct:small_blade_cast",
+	"tconstruct:small_blade_sand_cast",
+	"tconstruct:small_blade_red_sand_cast",
+	"tconstruct:adze_head",
+	"tconstruct:adze_head_cast",
+	"tconstruct:adze_head_sand_cast",
+	"tconstruct:adze_head_red_sand_cast",
+	"tconstruct:hammer_head",
+	"tconstruct:hammer_head_cast",
+	"tconstruct:hammer_head_sand_cast",
+	"tconstruct:hammer_head_red_sand_cast",
+	"tconstruct:broad_axe_head",
+	"tconstruct:broad_axe_head_cast",
+	"tconstruct:broad_axe_head_sand_cast",
+	"tconstruct:broad_axe_head_red_sand_cast",
+	"tconstruct:broad_blade",
+	"tconstruct:broad_blade_cast",
+	"tconstruct:broad_blade_sand_cast",
+	"tconstruct:broad_blade_red_sand_cast",
+	"tconstruct:large_plate",
+	"tconstruct:large_plate_cast",
+	"tconstruct:large_plate_sand_cast",
+	"tconstruct:large_plate_red_sand_cast",
+	"tconstruct:tool_handle",
+	"tconstruct:tool_handle_cast",
+	"tconstruct:tool_handle_sand_cast",
+	"tconstruct:tool_handle_red_sand_cast",
+	"tconstruct:tool_binding",
+	"tconstruct:tool_binding_cast",
+	"tconstruct:tool_binding_sand_cast",
+	"tconstruct:tool_binding_red_sand_cast",
+	"tconstruct:tough_handle",
+	"tconstruct:tough_handle_cast",
+	"tconstruct:tough_handle_sand_cast",
+	"tconstruct:tough_handle_red_sand_cast",
+	"tconstruct:tough_binding",
+	"tconstruct:tough_binding_cast",
+	"tconstruct:tough_binding_sand_cast",
+	"tconstruct:tough_binding_red_sand_cast",
+	"tconstruct:bow_limb",
+	"tconstruct:bow_limb_cast",
+	"tconstruct:bow_limb_sand_cast",
+	"tconstruct:bow_limb_red_sand_cast",
+	"tconstruct:bow_grip",
+	"tconstruct:bow_grip_cast",
+	"tconstruct:bow_grip_sand_cast",
+	"tconstruct:bow_grip_red_sand_cast",
+	"tconstruct:bowstring",
+	"tconstruct:modifier_crystal",
+	"tconstruct:pickaxe",
+	"tconstruct:pickadze",
+	"tconstruct:mattock",
+	"tconstruct:hand_axe",
+	"tconstruct:kama",
+	"tconstruct:dagger",
+	"tconstruct:sword",
+	"tconstruct:sledge_hammer",
+	"tconstruct:vein_hammer",
+	"tconstruct:excavator",
+	"tconstruct:broad_axe",
+	"tconstruct:scythe",
+	"tconstruct:cleaver",
+	"tconstruct:crossbow",
+	"tconstruct:longbow",
+	"tconstruct:melting_pan",
+	"tconstruct:war_pick",
+	"tconstruct:swasher",
+	"tconstruct:travelers_shield",
+	"tconstruct:plate_shield",
+	"tconstruct:shield_core",
+	"tconstruct:slime_helmet",
+	"tconstruct:slime_chestplate",
+	"tconstruct:slime_leggings",
+	"tconstruct:slime_boots",
+	"!tconstruct:travelers_.*",
+	"!tconstruct:plate_.*",
+	"!tconstruct:.*_plating",
+	"!tconstruct:.*_plating_.*cast",
+	"!tconstruct:.*_plating_dummy",
+	"tconstruct:maille",
+	"!tconstruct:maille_.*cast",
+	"tconstruct:flint_and_brick",
+	"!tconstruct:.*_slime_grass",
+	"tconstruct:earth_slime_dirt",
+	"tconstruct:sky_slime_dirt",
+	"tconstruct:ichor_slime_dirt",
+	"tconstruct:ender_slime_dirt",
+	"!tconstruct:.*ichor.*",
+	"!tconstruct:.*bloodshroom.*",
+	"!tconstruct:.*blood_slime.*",
+	"tconstruct:blood_cake",
+	"!tconstruct:.*_slime_crystal_cluster",
+	"!tconstruct:.*_slime_crystal_bud",
+	"!tconstruct:.*_slime_crystal_block",
+	"!tconstruct:budding_.*_slime_crystal",
+	"!tconstruct:.*_reinforcement",
+	"!tconstruct:.*_slime_tall_grass",
+	"!tconstruct:.*_slime_fern",
+	"!tconstruct:.*_slime_grass_seeds",
+	"tconstruct:tinker_station",
+	"tconstruct:modifier_worktable",
+	"!tconstruct:.*_anvil",
+	"tconstruct:venombone",
+	"tconstruct:necrotic_bone",
+	"tconstruct:blazing_bone",
+	"tconstruct:copper_can",
+	"tconstruct:gold_bars",
+	"tconstruct:efln_ball",
+	"tconstruct:silky_cloth",
+	"tconstruct:creative_slot",
+	"tconstruct:dragon_scale",
+	"!tconstruct:.*shuriken",
+	"!tnts_harder_beds:.*mattress",
+	"minecraft:wooden_hoe",
+	"minecraft:wooden_axe",
+	"minecraft:wooden_sword",
+	"minecraft:wooden_shovel",
+	"minecraft:wooden_pickaxe",
+	"tconstruct:materials_and_you",
+	"tconstruct:puny_smelting",
+	"tconstruct:tinkers_gadgetry",
+	"tconstruct:fantastic_foundry",
+	"tconstruct:smeltery_controller",
+	"tconstruct:foundry_controller",
+	"tconstruct:seared_basin",
+	"tconstruct:seared_fuel_tank",
+	"tconstruct:seared_melter",
+	"tconstruct:seared_drain",
+	"tconstruct:seared_duct",
+	"tconstruct:seared_fuel_gauge",
+	"tconstruct:scorched_drain",
+	"tconstruct:scorched_duct",
+	"tconstruct:scorched_chute",
+	"tconstruct:scorched_fuel_gauge",
+	"tconstruct:scorched_fuel_tank",
+	"tconstruct:part_builder",
+	"tconstruct:tinkers_chest",
+	"tconstruct:part_chest",
+	"!tconstruct:.+_cake",
+	"tconstruct:piggy_backpack",
+	"!tconstruct:enderbark.*",
+	"tconstruct:cast_chest",
+	"tconstruct:seared_casting_tank",
+	"tconstruct:scorched_proxy_tank",
+	"iceandfire:silver_ingot",
+	"iceandfire:silver_nugget",
+	"iceandfire:silver_block",
+	"iceandfire:raw_silver_block",
+	"iceandfire:deepslate_silver_ore",
+	"iammusicplayer:manual",
+	"iceandfire:silver_hoe",
+	"iceandfire:silver_pickaxe",
+	"iceandfire:silver_shovel",
+	"iceandfire:silver_sword",
+	"iceandfire:armor_silver_metal_helmet",
+	"iceandfire:armor_silver_metal_chestplate",
+	"iceandfire:armor_silver_metal_leggings",
+	"iceandfire:armor_silver_metal_boots",
+	"iceandfire:silver_ore",
+	"caverns_and_chasms:depth_gauge",
+	"iceandfire:copper_shovel",
+	"iceandfire:copper_pickaxe",
+	"iceandfire:copper_axe",
+	"iceandfire:copper_hoe",
+	"iceandfire:copper_sword",
+	"iceandfire:armor_copper_metal_helmet",
+	"iceandfire:armor_copper_metal_chestplate",
+	"iceandfire:armor_copper_metal_leggings",
+	"iceandfire:armor_copper_metal_boots"
+
+  ],
+  // -----------------------------------------------------------
+  // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.
+  // Use with caution! This is a very expensive operation and can cause lag if you have a lot of items blacklisted.
+  // 	
+  // 	 Example to disable a regeneration potion: Potion:"minecraft:regeneration"
+  // 	
+  // 	 You can also use regular expressions by starting the value with !
+  "blacklisted_nbt": [],
+  // -----------------------------------------------------------
+  // Items here will not be able to be right-clicked (Interact)
+  //    Example: minecraft:apple
+  "only_disable_interactions": [
+    "examplemod:example_item"
+  ],
+  // -----------------------------------------------------------
+  // Items here will not be able to be used to attack
+  //    Example: minecraft:diamond_sword
+  "only_disable_attacks": [
+    "examplemod:example_item"
+  ],
+  // -----------------------------------------------------------
+  // Items here will get their recipes disabled
+  // Keep in mind this already is applied to blacklisted items
+  "only_disable_recipes": [
+    "examplemod:example_item"
+  ],
+  // -----------------------------------------------------------
+  // If true, the mod will use a hashset to handle the blacklisted items
+  // This is a more optimized approach only if you have a lot of items blacklisted (20 or more is recommended)
+  // If you just have a small amount of items blacklisted, keep this false
+  //  
+  // [!] Enabling this will disable all regular expressions
+  // [!] Does not apply to NBT, only item blacklist / interaction / attack
+  "use_hashmap_optimizations": false
+}

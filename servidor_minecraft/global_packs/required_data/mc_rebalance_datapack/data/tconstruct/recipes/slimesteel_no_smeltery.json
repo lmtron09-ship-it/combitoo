@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"group": "slimesteel_ingot",
+	"ingredients": [
+		{"item": "tconstruct:sky_slime_ball"},
+		{"item": "minecraft:iron_ingot"},
+		{"item": "tconstruct:seared_brick"},
+		{"item": "tconstruct:seared_brick"}
+	],
+	"result": {
+		"item": "tconstruct:slimesteel_ingot",
+		"count":2
+	}
+}

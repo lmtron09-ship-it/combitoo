@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "item": "minecraft:stone_pickaxe"
+    },
+    {
+      "item": "minecraft:stone_shovel"
+    },
+    {
+      "item": "minecraft:stone_axe"
+    },
+    {
+      "item": "minecraft:stone_hoe"
+    },
+    {
+      "item": "minecraft:stone_sword"
+    },
+    {
+      "item": "paxelsfordummies:stone_paxel"
+    },
+    {
+      "item": "advanced_copper:copper_armor_helmet"
+    },
+    {
+      "item": "advanced_copper:copper_armor_chestplate"
+    },
+    {
+      "item": "advanced_copper:copper_armor_leggings"
+    },
+    {
+      "item": "advanced_copper:copper_armor_boots"
+    }
+  ],
+  "result": "tconstruct:copper_nugget"
+}

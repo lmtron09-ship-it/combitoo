@@ -1,0 +1,17 @@
+{
+    "variants": [
+        {
+            "materials": [ "tetra:wood/", "tetra:rod/stick", "tetra:metal/" ],
+            "key": "basic_stock/",
+            "extract": {
+                "availableTextures": [ "default", "tconstruct" ],
+                "models": [
+                    {
+                        "location": "tetra:item/module/crossbow/stock/basic/",
+                        "type": "static"
+                    }
+                ]
+            }
+        }
+    ]
+}

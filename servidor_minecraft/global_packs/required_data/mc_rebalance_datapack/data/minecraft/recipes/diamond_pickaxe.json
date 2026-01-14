@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"DDD",
+		" S ",
+		" S "
+	],
+	"key": {
+		"D": {"item": "minecraft:diamond"},
+		"S": {"item": "minecraft:stick"}
+	},
+	"result": {
+		"item": "minecraft:diamond_pickaxe"
+	},
+	"show_notification": true
+}

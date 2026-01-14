@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:blasting",
+	"category": "misc",
+	"cookingtime": 300,
+	"experience": 2.7,
+	"group": "cobalt_ingot",
+	"ingredient": {
+		"item": "tconstruct:raw_cobalt"
+	},
+	"result": "tconstruct:cobalt_ingot"
+}

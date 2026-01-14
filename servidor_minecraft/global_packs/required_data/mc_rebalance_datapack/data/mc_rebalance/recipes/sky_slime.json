@@ -1,0 +1,18 @@
+{
+	"type":"tconstruct:alloy",
+	"inputs":[
+		{
+			"tag":"tconstruct:molten_diamond",
+			"amount":90
+		},
+		{
+			"tag":"tconstruct:earth_slime",
+			"amount":720
+		}
+	],
+	"result":{
+		"fluid":"tconstruct:sky_slime",
+		"amount":720
+	},
+	"temperature":1000
+}

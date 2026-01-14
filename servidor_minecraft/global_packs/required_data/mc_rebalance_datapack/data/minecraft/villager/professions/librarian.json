@@ -1,0 +1,33 @@
+{
+	"levels": {
+		"1": {
+			"take": {
+				"type": "constant",
+				"value": 5
+			},
+			"trades": [
+				{
+					"sells": {"item": "emerald","count": 1},
+					"wants": [{"item": "enchanted_book","count":1}]
+				},
+				{
+					"sells": {"item": "book","functions":[{"function":"enchant_randomly"}],"count": 1},
+					"wants": [{"item": "emerald","count":10}]
+				},
+				{
+					"sells": {"item": "book","functions":[{"function":"enchant_randomly"}],"count": 1},
+					"wants": [{"item": "emerald","count":10}]
+				}, 
+				{
+					"sells": {"item": "book","functions":[{"function":"enchant_randomly"}],"count": 1},
+					"wants": [{"item": "emerald","count":10}]
+				},
+				{
+					"sells": {"item": "book","functions":[{"function":"enchant_randomly"}],"count": 1},
+					"wants": [{"item": "emerald","count":10}]
+				}
+
+			]
+		}
+	}
+}

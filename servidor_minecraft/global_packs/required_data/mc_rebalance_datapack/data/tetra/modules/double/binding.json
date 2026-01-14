@@ -1,0 +1,12 @@
+{
+    "variants": [
+        {
+            "materials": [ "tetra:fibre/", "tetra:skin/" ],
+            "key": "double_binding/",
+            "extract": {
+                "availableTextures": [ "default", "tconstruct" ],
+                "models": [ { "location": "tetra:item/module/double/binding/binding/" } ]
+            }
+        }
+    ]
+}

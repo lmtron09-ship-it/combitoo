@@ -1,0 +1,12 @@
+{
+    "variants": [
+        {
+            "materials": [ "tetra:wood/", "tetra:metal/", "tetra:bone/", "tetra:rod/" ],
+            "key": "basic_hilt/",
+            "extract": {
+                "availableTextures": [ "bright", "default", "tconstruct" ],
+                "models": [ { "location": "tetra:item/module/sword/hilt/basic/" } ]
+            }
+        }
+    ]
+}

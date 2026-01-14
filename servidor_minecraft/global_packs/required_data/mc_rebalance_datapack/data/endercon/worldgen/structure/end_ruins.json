@@ -1,0 +1,15 @@
+
+{
+	"type": "minecraft:jigsaw",
+	"biomes": "endercon:end_hallows",
+	"step": "raw_generation",
+	"spawn_overrides": {},
+	"terrain_adaptation": "none",
+	"start_pool": "endercon:end_ruins/start",
+	"size": 2,
+	"start_height": {
+		"absolute": 30
+	},
+	"max_distance_from_center": 16,
+	"use_expansion_hack": false
+}

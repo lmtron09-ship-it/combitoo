@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "tag": "minecraft:planks"
+    },
+    "U": {
+      "item": "minecraft:minecart"
+    }
+  },
+  "pattern": [
+    "###",
+    "#U#",
+    "###"
+  ],
+  "result": {
+    "item": "minecraft:chest_minecart"
+  },
+  "show_notification": true
+}
+

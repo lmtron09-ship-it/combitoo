@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:blasting",
+	"category": "misc",
+	"cookingtime": 400,
+	"experience": 3.0,
+	"group": "steel_ingot",
+	"ingredient": {
+		"item": "minecraft:iron_ingot"
+	},
+	"result": "tconstruct:steel_ingot"
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "X": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "pattern": [
+    "X#X",
+    "#R#",
+    "X#X"
+  ],
+  "result": {
+    "count": 2,
+    "item": "copperrails:rail_crossing"
+  },
+  "show_notification": true
+}

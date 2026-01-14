@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "minecraft:copper_ingot"
+    },
+    "S": {
+      "tag": "modernminecarts:copper_templates"
+    }
+  },
+  "pattern": [
+    "C C",
+    "CSC",
+    "C C"
+  ],
+  "result": {
+    "count": 1,
+    "item": "modernminecarts:copper_upgrade_smithing_template"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,46 @@
+{
+    "key": "slimesteel",
+    "category": "metal",
+    "primary": 6,
+    "secondary": 2.9,
+    "tertiary": 3.5,
+    "durability": 2185,
+    "integrityCost": 2,
+    "integrityGain": 5,
+    "magicCapacity": 90,
+    "toolLevel": 6,
+    "toolEfficiency": 5,
+    "textureOverrides": [
+        "item/module/crossbow/stave/basic/",
+        "item/module/crossbow/stock/basic/",
+        "item/module/double/binding/binding/",
+        "item/module/double/handle/basic/",
+        "item/module/double/head/basic_axe/",
+        "item/module/double/head/basic_pickaxe/",
+        "item/module/double/head/butt/",
+        "item/module/sword/blade/basic/",
+        "item/module/sword/blade/heavy/",
+        "item/module/sword/blade/short/",
+        "item/module/sword/guard/makeshift_guard/",
+        "item/module/sword/guard/wide_guard/",
+        "item/module/sword/hilt/basic/",
+        "item/module/sword/pommel/decorative_pommel/"
+    ],
+    "tintOverrides": false,
+    "tints": {
+        "glyph": "42efef",
+        "texture": "46ece7"
+    },
+    "textures": [
+        "slimesteel",
+        "tconstruct",
+        "metal",
+        "shiny"
+    ],
+    "material": {
+        "items": [ "tconstruct:slimesteel_ingot" ]
+    },
+    "requiredTools": {
+        "hammer_dig": 3
+    }
+}

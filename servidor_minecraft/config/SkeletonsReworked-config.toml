@@ -1,0 +1,15 @@
+
+["AI Changes for the vanilla skeletons & strays"]
+	#Default true
+	"Should the skeletons have accurate-melee range?" = true
+	#Default true
+	"Should the zombies have a chance to turn into skeletons on death?" = false
+	#Default true
+	"Should the skeletons with swords have a chance to leap forward?" = false
+	#Default true
+	"Should the skeletons now be IMMUNE to sunlight damage?" = false
+	#Default true
+	"Should skeletons have upgraded armor and equipment and spawn with it less rarely?" = true
+	#Default true
+	"Should skeletons be faster when encountering the player at night time?" = true
+

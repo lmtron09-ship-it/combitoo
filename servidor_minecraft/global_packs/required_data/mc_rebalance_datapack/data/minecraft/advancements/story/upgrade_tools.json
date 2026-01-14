@@ -1,0 +1,19 @@
+{
+	"parent": "minecraft:story/smelt_iron",
+	"criteria": {
+		"iron_pickaxe": {
+			"conditions": {"items": [{"items": ["minecraft:iron_pickaxe"]}]},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"title": {"translate": "advancements.story.upgrade_tools.title"},
+		"description": {"translate": "advancements.story.upgrade_tools.description"},
+		"frame": "task",
+		"hidden": false,
+		"icon": {"item": "minecraft:iron_pickaxe"},
+		"show_toast": true
+	},
+	"requirements": [["iron_pickaxe"]]
+}

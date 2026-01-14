@@ -1,0 +1,14 @@
+
+["Zombie Equipment"]
+	#Items / chance of spawning with it
+	"Head Slot" = ["minecraft:iron_helmet|100", "minecraft:chainmail_helmet|175", "minecraft:leather_helmet|250", "advanced_copper:copper_armor_helmet|100"]
+	"Chest Slot" = ["minecraft:iron_chestplate|100", "minecraft:chainmail_chestplate|175", "minecraft:leather_chestplate|250", "advanced_copper:copper_armor_chestplate|100"]
+	"Legs Slot" = ["minecraft:iron_leggings|100", "minecraft:chainmail_leggings|175", "minecraft:leather_leggings|250", "advanced_copper:copper_armor_leggings|100"]
+	"Boots Slot" = ["minecraft:iron_boots|100", "minecraft:chainmail_boots|175", "minecraft:leather_boots|250", "advanced_copper:copper_armor_boots|100"]
+	"Main Hand Slot" = ["minecraft:iron_sword|100", "minecraft:stone_sword|250", "minecraft:wooden_sword|400"]
+	"Off Hand Slot" = ["minecraft:shield|100"]
+	#Default true
+	"Should zombies spawn with more armor and tools and more commonly" = true
+	#Default 160
+	"Chance of the zombies spawning with improved equipment, the bigger the number the smaller the chance" = 10000
+

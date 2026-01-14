@@ -1,0 +1,19 @@
+{
+	"parent": "minecraft:story/enter_the_nether",
+	"criteria": {
+		"cobalt": {
+			"conditions": {"items": [{"items": ["tconstruct:cobalt_ingot"]}]},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"title":{"translate":"advancements.story.smelt_cobalt.title"},
+		"description": {"translate":"advancements.story.smelt_cobalt.description"},
+		"frame": "task",
+		"hidden": false,
+		"icon": {"item": "tconstruct:cobalt_ingot"},
+		"show_toast": true
+	},
+	"requirements": [["cobalt"]]
+}

@@ -1,0 +1,19 @@
+{
+	"parent": "minecraft:story/mine_stone",
+	"criteria": {
+		"copper_pickaxe": {
+			"conditions": {"items": [{"items": ["minecraft:stone_pickaxe"]}]},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"title": {"translate": "advancements.story.iron_tools.title"},
+		"description": {"translate": "advancements.story.iron_tools.description"},
+		"frame": "task",
+		"hidden": false,
+		"icon": {"item": "minecraft:stone_pickaxe"},
+		"show_toast": true
+	},
+	"requirements": [["copper_pickaxe"]]
+}

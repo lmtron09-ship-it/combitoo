@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "g": {
+      "item": "minecraft:gold_nugget"
+    },
+    "_": {
+      "item": "minecraft:stone_pressure_plate"
+    },
+    "Q": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "gQg",
+    "gsg",
+    "g_g"
+  ],
+  "result": {
+    "count": 4,
+    "item": "modernminecarts:powered_detector_rail"
+  }
+}

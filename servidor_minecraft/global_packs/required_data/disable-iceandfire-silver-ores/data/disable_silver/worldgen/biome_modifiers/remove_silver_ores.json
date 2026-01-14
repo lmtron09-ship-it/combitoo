@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:remove_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "iceandfire:deepslate_silver_ore",
+    "iceandfire:silver_ore"
+  ]
+}

@@ -1,0 +1,13 @@
+
+["Skeleton Equipment"]
+	#Items / chance of spawning with it
+	"Head Slot" = ["minecraft:leather_helmet|35", "minecraft:chainmail_helmet|25", "minecraft:iron_helmet|10", "advanced_copper:copper_armor_helmet|15"]
+	"Chest Slot" = ["minecraft:leather_chestplate|35", "minecraft:chainmail_chestplate|25", "minecraft:iron_chestplate|10", "advanced_copper:copper_armor_chestplate|15"]
+	"Legs Slot" = ["minecraft:leather_leggings|35", "minecraft:chainmail_leggings|25", "minecraft:iron_leggings|10", "advanced_copper:copper_armor_leggings|15"]
+	"Boots Slot" = ["minecraft:leather_boots|35", "minecraft:chainmail_boots|25", "minecraft:iron_boots|10", "advanced_copper:copper_armor_boots|15"]
+	"Main Hand Slot" = ["minecraft:bow|2000", "minecraft:wooden_sword|250", "minecraft:stone_sword|50", "minecraft:iron_sword|10"]
+	#Default true
+	"Should skeletons spawn with more armor and tools and more commonly" = true
+	#Default 250
+	"Chance of the skeletons spawning with improved equipment, the bigger the number the smaller the chance" = 2000
+

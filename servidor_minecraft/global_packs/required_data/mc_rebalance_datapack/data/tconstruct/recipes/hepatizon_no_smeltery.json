@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"group": "hepatizon_ingot",
+	"ingredients": [
+		{"item": "minecraft:copper_ingot"},
+		{"item": "minecraft:copper_ingot"},
+		{"item": "tconstruct:cobalt_ingot"},
+		{"item": "minecraft:quartz"},
+		{"item": "minecraft:popped_chorus_fruit"}
+	],
+	"result": {
+		"item": "tconstruct:hepatizon_ingot",
+		"count":2
+	}
+}

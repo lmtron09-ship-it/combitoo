@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "U": {
+      "item": "minecraft:minecart"
+    },
+    "C": {
+      "tag": "forge:chests/wooden"
+    }
+  },
+  "pattern": [
+    "#U#",
+    "#C#",
+    " # "
+  ],
+  "result": {
+    "item": "minecraft:hopper_minecart"
+  },
+  "show_notification": true
+}
+

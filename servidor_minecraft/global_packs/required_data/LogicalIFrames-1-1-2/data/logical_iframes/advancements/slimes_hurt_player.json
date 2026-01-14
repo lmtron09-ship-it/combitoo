@@ -1,0 +1,18 @@
+{
+	"parent": "logical_iframes:root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "#logical_iframes:slimes"
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "logical_iframes:slime_fix"
+	}
+}

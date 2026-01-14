@@ -1,0 +1,33 @@
+{
+	"levels": {
+		"1": {
+			"take": {
+				"type": "constant",
+				"value": 5
+			},
+			"trades": [
+				{
+					"sells": {"item": "emerald","count": 1},
+					"wants": [{"item": "diamond","count":4}]
+				},
+				{
+					"sells": {"item": "golden_sword","functions":[{"function":"enchant_randomly"}],"count": 1},
+					"wants": [{"item": "emerald","count":7},{"item":"golden_sword"}]
+				},
+				{
+					"sells": {"item": "golden_axe","functions":[{"function":"enchant_randomly"}],"count": 1},
+					"wants": [{"item": "emerald","count":11},{"item":"golden_axe"}]
+				}, 
+				{
+					"sells": {"item": "diamond_sword","functions":[{"function":"enchant_randomly"}],"count": 1},
+					"wants": [{"item": "emerald","count":7},{"item":"diamond_sword"}]
+				},
+				{
+					"sells": {"item": "diamond_axe","functions":[{"function":"enchant_randomly"}],"count": 1},
+					"wants": [{"item": "emerald","count":11},{"item":"diamond_axe"}]
+				}
+
+			]
+		}
+	}
+}

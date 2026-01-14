@@ -1,0 +1,12 @@
+{
+    "variants": [
+        {
+            "materials": [ "tetra:wood/", "tetra:metal/", "tetra:bone/", "tetra:rod/" ],
+            "key": "basic_handle/",
+            "extract": {
+                "availableTextures": [ "default", "metal", "bone", "bright", "tconstruct" ],
+                "models": [ { "location": "tetra:item/module/double/handle/basic/" } ]
+            }
+        }
+    ]
+}

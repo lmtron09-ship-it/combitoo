@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category":"misc",
+	"pattern": [
+		" 1 ",
+		"232",
+		"444"
+		],
+	"key": {
+		"1":{"item":"minecraft:book"},
+		"2":{"item":"minecraft:amethyst_shard"},
+		"3":{"item":"minecraft:crying_obsidian"},
+		"4":{"item":"minecraft:obsidian"}
+	},
+	"result": {
+		"item":"minecraft:enchanting_table"
+	},
+	"show_notification":true
+}

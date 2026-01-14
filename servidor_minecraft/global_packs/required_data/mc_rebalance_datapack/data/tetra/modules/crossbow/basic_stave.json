@@ -1,0 +1,17 @@
+{
+    "variants": [
+        {
+            "materials": [ "tetra:wood/", "tetra:rod/stick", "tetra:metal/" ],
+            "key": "basic_stave/",
+            "extract": {
+                "availableTextures": [ "default", "tconstruct" ],
+                "models": [
+                    {
+                        "location": "tetra:item/module/crossbow/stave/basic/",
+                        "type": "static"
+                    }
+                ]
+            }
+        }
+    ]
+}

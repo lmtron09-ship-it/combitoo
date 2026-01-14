@@ -1,0 +1,164 @@
+{
+  "config_version": "2.0.9b",
+  "config_datetime": "2025-12-18_16-11-44",
+  "general": {
+    "disable_all_structures": false,
+    "prevent_structure_overlap": false,
+    "enable_global_spacing_and_separation_modifier": false,
+    "global_spacing_and_separation_modifier": 1.0
+  },
+  "structure_namespaces": [],
+  "structures": [
+    {
+      "name": "alexscaves:acid_pit",
+      "is_disabled": false,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "raw_generation",
+      "terrain_adaptation": "none",
+      "override_global_biome_check": true,
+      "enable_biome_check": false,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:river",
+        "#minecraft:is_ocean",
+        "#c:ocean"
+      ]
+    },
+    {
+      "name": "alexscaves:cake_cave",
+      "is_disabled": false,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "raw_generation",
+      "terrain_adaptation": "none",
+      "override_global_biome_check": true,
+      "enable_biome_check": false,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:river",
+        "#minecraft:is_ocean",
+        "#c:ocean"
+      ]
+    },
+    {
+      "name": "alexscaves:dino_bowl",
+      "is_disabled": false,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "raw_generation",
+      "terrain_adaptation": "none",
+      "override_global_biome_check": true,
+      "enable_biome_check": false,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:river",
+        "#minecraft:is_ocean",
+        "#c:ocean"
+      ]
+    },
+    {
+      "name": "alexscaves:ferrocave",
+      "is_disabled": false,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "raw_generation",
+      "terrain_adaptation": "none",
+      "override_global_biome_check": true,
+      "enable_biome_check": false,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:river",
+        "#minecraft:is_ocean",
+        "#c:ocean"
+      ]
+    },
+    {
+      "name": "alexscaves:forlorn_canyon",
+      "is_disabled": false,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "raw_generation",
+      "terrain_adaptation": "none",
+      "override_global_biome_check": true,
+      "enable_biome_check": false,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:river",
+        "#minecraft:is_ocean",
+        "#c:ocean"
+      ]
+    },
+    {
+      "name": "terramity:subterranean_shrine",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "underground_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "terramity:suspicious_shrine",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    }
+  ],
+  "structure_sets": [
+    {
+      "spacing": 12,
+      "separation": 6,
+      "name": "alexscaves:acid_pit",
+      "salt": 1454654750,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "spacing": 12,
+      "separation": 10,
+      "name": "alexscaves:cake_cave",
+      "salt": 1148022411,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "spacing": 8,
+      "separation": 4,
+      "name": "alexscaves:dino_bowl",
+      "salt": 948032302,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "spacing": 12,
+      "separation": 6,
+      "name": "alexscaves:ferrocave",
+      "salt": 706446836,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "spacing": 12,
+      "separation": 8,
+      "name": "alexscaves:forlorn_canyon",
+      "salt": 1890343896,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": true
+    },
+    {
+      "spacing": 4,
+      "separation": 2,
+      "name": "alexscaves:ocean_trench",
+      "salt": 657205258,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": true
+    }
+  ]
+}

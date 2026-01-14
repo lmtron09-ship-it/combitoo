@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {"item": "minecraft:clay"},
+    {"tag": "minecraft:sand"},
+    {"tag": "minecraft:sand"},
+    {"tag": "minecraft:sand"},
+    {"tag": "minecraft:sand"},
+    {"item": "minecraft:iron_nugget"},
+    {"item": "minecraft:iron_nugget"},
+    {"item": "minecraft:iron_nugget"},
+    {"item": "minecraft:iron_nugget"}
+  ],
+  "result": {
+    "count": 8,
+    "item": "tconstruct:grout"
+  }
+}

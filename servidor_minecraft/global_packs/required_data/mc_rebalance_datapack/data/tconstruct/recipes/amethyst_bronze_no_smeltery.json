@@ -1,0 +1,7 @@
+{
+	"type": "minecraft:smithing_transform",
+	"addition": {"item": "minecraft:amethyst_cluster"},
+	"base": {"item": "minecraft:copper_block"},
+	"result": {"item": "tconstruct:amethyst_bronze_block"},
+	"template": {"item": "minecraft:amethyst_cluster"}
+}

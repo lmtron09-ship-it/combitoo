@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "E": {
+      "item": "create:electron_tube"
+    },
+    "X": {
+      "item": "minecraft:gold_nugget"
+    }
+  },
+  "pattern": [
+    "X X",
+    "X#X",
+    "XEX"
+  ],
+  "result": {
+    "count": 2,
+    "item": "create:controller_rail"
+  },
+  "show_notification": true
+}

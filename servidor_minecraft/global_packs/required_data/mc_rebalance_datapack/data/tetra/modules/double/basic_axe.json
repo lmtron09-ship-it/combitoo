@@ -1,0 +1,12 @@
+{
+    "variants": [
+        {
+            "materials": [ "tetra:wood/", "tetra:stone/", "tetra:metal/", "tetra:gem/" ],
+            "key": "basic_axe/",
+            "extract": {
+                "availableTextures": [ "crude", "metal", "shiny", "tconstruct" ],
+                "models": [ { "location": "tetra:item/module/double/head/basic_axe/" } ]
+            }
+        }
+    ]
+}

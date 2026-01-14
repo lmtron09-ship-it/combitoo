@@ -1,0 +1,24 @@
+{
+    "key": "amethyst_bronze",
+    "category": "metal",
+    "primary": 4,
+    "secondary": 3.8,
+    "tertiary": 3.5,
+    "durability": 560,
+    "integrityCost": 2,
+    "integrityGain": 5,
+    "magicCapacity": 140,
+    "toolLevel": 5,
+    "toolEfficiency": 7,
+    "tints": {
+        "glyph": "f66fb7",
+        "texture": "ffa5ef"
+    },
+    "textures": [
+        "tconstruct",
+        "metal",
+        "default"
+    ],
+    "material": {"items": [ "tconstruct:amethyst_bronze_ingot" ]},
+    "requiredTools": {"hammer_dig": 3}
+}

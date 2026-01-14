@@ -1,0 +1,33 @@
+{
+	"levels": {
+		"1": {
+			"take": {
+				"type": "constant",
+				"value": 5
+			},
+			"trades": [
+				{
+					"sells": {"item": "emerald","count": 1},
+					"wants": [{"item": "magma_cream","count":4}]
+				},
+				{
+					"sells": {"item": "golden_pickaxe","functions":[{"function":"enchant_randomly"}],"count": 1},
+					"wants": [{"item": "emerald","count":7},{"item":"golden_pickaxe"}]
+				},
+				{
+					"sells": {"item": "diamond_pickaxe","functions":[{"function":"enchant_randomly"}],"count": 1},
+					"wants": [{"item": "emerald","count":11},{"item":"diamond_pickaxe"}]
+				}, 
+				{
+					"sells": {"item": "golden_shovel","functions":[{"function":"enchant_randomly"}],"count": 1},
+					"wants": [{"item": "emerald","count":7},{"item":"golden_shovel"}]
+				},
+				{
+					"sells": {"item": "diamond_shovel","functions":[{"function":"enchant_randomly"}],"count": 1},
+					"wants": [{"item": "emerald","count":11},{"item":"diamond_shovel"}]
+				}
+
+			]
+		}
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"group": "sky_slime_ingot",
+	"ingredients": [
+		{"item": "minecraft:diamond"},
+		{"item": "minecraft:slime_ball"},
+		{"item": "minecraft:slime_ball"},
+		{"item": "minecraft:slime_ball"}
+	],
+	"result": {
+		"item": "tconstruct:sky_slime_ball",
+		"count":3
+	}
+}

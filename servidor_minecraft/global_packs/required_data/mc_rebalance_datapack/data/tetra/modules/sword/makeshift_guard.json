@@ -1,0 +1,12 @@
+{
+    "variants": [
+        {
+            "materials": [ "tetra:wood/", "tetra:stone/", "tetra:metal/", "tetra:bone/", "tetra:gem/" ],
+            "key": "makeshift_guard/",
+            "extract": {
+                "availableTextures": [ "shiny", "default", "tconstruct" ],
+                "models": [ { "location": "tetra:item/module/sword/guard/makeshift_guard/" } ]
+            }
+        }
+    ]
+}

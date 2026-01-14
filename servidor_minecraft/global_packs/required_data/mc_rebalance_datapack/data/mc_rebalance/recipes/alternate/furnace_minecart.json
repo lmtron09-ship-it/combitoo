@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "tag": "minecraft:stone_crafting_materials"
+    },
+    "U": {
+      "item": "minecraft:minecart"
+    }
+  },
+  "pattern": [
+    "###",
+    "#U#",
+    "###"
+  ],
+  "result": {
+    "item": "minecraft:furnace_minecart"
+  },
+  "show_notification": true
+}
+

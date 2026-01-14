@@ -1,0 +1,16 @@
+
+["Configs for TNT's Harder Beds"]
+	#Whether a house should be required for beds to work
+	requireHouse = false
+	#The smallest area allowed for bedrooms
+	minRoomSize = 8
+	#The largest area allowed for bedrooms
+	maxRoomSize = 810
+	#The smallest height allowed for bedrooms
+	minCeilingHeight = 2
+	#The largest height allowed for bedrooms
+	maxCeilingHeight = 60
+	#The minimum light level required at the bed's position (put 0 to disable)
+	#Range: 0 ~ 14
+	minLightLevel = 2
+

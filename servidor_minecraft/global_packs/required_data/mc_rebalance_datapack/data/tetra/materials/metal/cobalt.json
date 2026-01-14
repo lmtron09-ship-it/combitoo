@@ -1,0 +1,26 @@
+{
+  "key": "cobalt",
+  "category": "metal",
+  "primary": 7,
+  "secondary": 2.9,
+  "tertiary": 7,
+  "durability": 2041,
+  "integrityCost": 2,
+  "integrityGain": 5,
+  "magicCapacity": 85,
+  "toolLevel": 6,
+  "toolEfficiency": 7.3,
+  "tints": {
+    "glyph": "2222dd",
+    "texture": "3333dd"
+  },
+  "textures": [
+    "tconstruct",
+    "cobalt",
+    "metal",
+    "shiny"
+  ],
+  "material": {"items":["tconstruct:cobalt_ingot"]},
+  "improvements": {"workable": 5},
+  "requiredTools": {"hammer_dig": 3}
+}

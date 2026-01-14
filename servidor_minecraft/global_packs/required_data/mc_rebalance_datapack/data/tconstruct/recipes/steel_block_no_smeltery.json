@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:blasting",
+	"category": "misc",
+	"cookingtime": 3600,
+	"experience": 27.0,
+	"group": "steel_block",
+	"ingredient": {
+		"item": "minecraft:iron_block"
+	},
+	"result": "tconstruct:steel_block"
+}

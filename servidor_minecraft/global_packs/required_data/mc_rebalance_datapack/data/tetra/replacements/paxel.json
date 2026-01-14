@@ -1,0 +1,71 @@
+[
+    {
+        "predicate": {
+            "items": [ "paxelsfordummies:wooden_paxel" ]
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [ "double/basic_axe_left", "basic_axe/oak" ],
+            "double/head_right": [ "double/basic_pickaxe_right", "basic_pickaxe/oak" ],
+            "double/handle": [ "double/basic_handle", "basic_handle/stick" ]
+        }
+    },
+    {
+        "predicate": {
+            "items": [ "paxelsfordummies:stone_paxel" ]
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [ "double/basic_axe_left", "basic_axe/copper" ],
+            "double/head_right": [ "double/basic_pickaxe_right", "basic_pickaxe/copper" ],
+            "double/handle": [ "double/basic_handle", "basic_handle/stick" ]
+        }
+    },
+    {
+        "predicate": {
+            "items": [ "paxelsfordummies:iron_paxel" ]
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [ "double/basic_axe_left", "basic_axe/iron" ],
+            "double/head_right": [ "double/basic_pickaxe_right", "basic_pickaxe/iron" ],
+            "double/handle": [ "double/basic_handle", "basic_handle/stick" ]
+        }
+    },
+    {
+        "predicate": {
+            "items": [ "paxelsfordummies:golden_paxel" ]
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [ "double/basic_axe_left", "basic_axe/gold" ],
+            "double/head_right": [ "double/basic_pickaxe_right", "basic_pickaxe/gold" ],
+            "double/handle": [ "double/basic_handle", "basic_handle/stick" ]
+        }
+    },
+    {
+        "predicate": {
+            "items": [ "paxelsfordummies:diamond_paxel" ]
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [ "double/basic_axe_left", "basic_axe/diamond" ],
+            "double/head_right": [ "double/basic_pickaxe_right", "basic_pickaxe/diamond" ],
+            "double/handle": [ "double/basic_handle", "basic_handle/stick" ]
+        }
+    },
+    {
+        "predicate": {
+            "items": [ "paxelsfordummies:netherite_paxel" ]
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [ "double/basic_axe_left", "basic_axe/netherite" ],
+            "double/head_right": [ "double/basic_pickaxe_right", "basic_pickaxe/netherite" ],
+            "double/handle": [ "double/basic_handle", "basic_handle/stick" ]
+        },
+        "improvements": {
+            "double/handle:basic_handle/soot": 0
+        }
+    }
+]
