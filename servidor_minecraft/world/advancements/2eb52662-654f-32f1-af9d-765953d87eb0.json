@@ -144,6 +144,7 @@
       "minecraft:frozen_river": "2026-01-12 22:48:47 +0000",
       "minecraft:sunflower_plains": "2026-01-13 02:40:38 +0000",
       "minecraft:birch_forest": "2026-01-13 02:27:21 +0000",
+      "minecraft:bamboo_jungle": "2026-01-15 02:59:36 +0000",
       "minecraft:savanna_plateau": "2026-01-12 00:03:59 +0000",
       "minecraft:beach": "2026-01-12 22:17:54 +0000",
       "minecraft:stony_peaks": "2026-01-12 00:32:10 +0000",
@@ -1607,17 +1608,21 @@
   },
   "regions_unexplored:regions_explored": {
     "criteria": {
+      "mauve_hills": "2026-01-15 02:50:25 +0000",
       "redstone_abyss": "2026-01-12 05:13:37 +0000",
       "muddy_river": "2026-01-12 22:47:48 +0000",
       "prismachasm": "2026-01-12 02:39:26 +0000",
       "ancient_delta": "2026-01-12 01:53:46 +0000",
+      "willow_forest": "2026-01-15 02:30:53 +0000",
       "redstone_caves": "2026-01-12 03:30:58 +0000",
+      "grassy_beach": "2026-01-15 03:08:10 +0000",
       "mycotoxic_undergrowth": "2026-01-12 05:13:36 +0000",
       "ochard": "2026-01-12 01:44:04 +0000",
       "highland_fields": "2026-01-12 00:43:03 +0000",
       "maple_forest": "2026-01-12 03:49:35 +0000",
       "magnolia_highlands": "2026-01-13 02:34:55 +0000",
       "mountains": "2026-01-12 02:32:09 +0000",
+      "sparse_redwoods": "2026-01-15 03:00:01 +0000",
       "glistering_meadow": "2026-01-12 05:14:06 +0000",
       "chalk_cliffs": "2026-01-12 00:32:58 +0000",
       "spires": "2026-01-12 22:48:48 +0000",
@@ -1629,12 +1634,16 @@
   },
   "regions_unexplored:pioneer": {
     "criteria": {
+      "mauve_hills": "2026-01-15 02:50:25 +0000",
       "muddy_river": "2026-01-12 22:47:48 +0000",
+      "willow_forest": "2026-01-15 02:30:53 +0000",
+      "grassy_beach": "2026-01-15 03:08:10 +0000",
       "ochard": "2026-01-12 01:44:04 +0000",
       "highland_fields": "2026-01-12 00:43:03 +0000",
       "maple_forest": "2026-01-12 03:49:35 +0000",
       "magnolia_highlands": "2026-01-13 02:34:55 +0000",
       "mountains": "2026-01-12 02:32:09 +0000",
+      "sparse_redwoods": "2026-01-15 03:00:01 +0000",
       "chalk_cliffs": "2026-01-12 00:32:58 +0000",
       "spires": "2026-01-12 22:48:48 +0000",
       "golden_boreal_taiga": "2026-01-13 04:56:22 +0000",
@@ -8001,7 +8010,8 @@
   "spelunkery:spelunkery/every_fungus": {
     "criteria": {
       "button_mushroom": "2026-01-13 04:54:43 +0000",
-      "crimini": "2026-01-13 04:54:43 +0000"
+      "crimini": "2026-01-13 04:54:43 +0000",
+      "inkcap_mushroom": "2026-01-15 02:46:21 +0000"
     },
     "done": false
   },
@@ -8068,6 +8078,270 @@
   "minecraft:recipes/decorations/honeycomb_block": {
     "criteria": {
       "has_honeycomb": "2026-01-14 01:02:16 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/ash_to_charcoal": {
+    "criteria": {
+      "has_item": "2026-01-15 02:40:05 +0000"
+    },
+    "done": true
+  },
+  "spelunkery:recipes/glow_ink_sac": {
+    "criteria": {
+      "has_item": "2026-01-15 02:46:43 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_asurine_brick_wall_from_stone_types_asurine_stonecutting": {
+    "criteria": {
+      "has_stone_types_asurine": "2026-01-15 02:20:50 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/armor_red_chestplate": {
+    "criteria": {
+      "has_item": "2026-01-15 02:34:52 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_asurine_stairs_from_stone_types_asurine_stonecutting": {
+    "criteria": {
+      "has_stone_types_asurine": "2026-01-15 02:20:50 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/building_blocks/ash": {
+    "criteria": {
+      "has_item": "2026-01-15 02:33:06 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/kill_if_dragon": {
+    "criteria": {
+      "killed_lightning_dragon": "2026-01-15 02:48:24 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/dragonbone_sword_lightning": {
+    "criteria": {
+      "has_item": "2026-01-15 02:48:58 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_asurine_brick_stairs_from_stone_types_asurine_stonecutting": {
+    "criteria": {
+      "has_stone_types_asurine": "2026-01-15 02:20:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye": {
+    "criteria": {
+      "has_ink_sac": "2026-01-15 02:46:43 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_asurine_slab_from_stone_types_asurine_stonecutting": {
+    "criteria": {
+      "has_stone_types_asurine": "2026-01-15 02:20:50 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/armor_gray_helmet": {
+    "criteria": {
+      "has_item": "2026-01-15 02:39:51 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/armor_gray_chestplate": {
+    "criteria": {
+      "has_item": "2026-01-15 02:39:51 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_asurine_wall_from_stone_types_asurine_stonecutting": {
+    "criteria": {
+      "has_stone_types_asurine": "2026-01-15 02:20:50 +0000"
+    },
+    "done": true
+  },
+  "idas:redhorn_guild": {
+    "criteria": {
+      "in_redhorn_guild": "2026-01-15 03:00:07 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/armor_red_leggings": {
+    "criteria": {
+      "has_item": "2026-01-15 02:34:52 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/armor_gray_leggings": {
+    "criteria": {
+      "has_item": "2026-01-15 02:39:51 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/dragon_egg": {
+    "criteria": {
+      "egg": "2026-01-15 02:34:52 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/armor_gray_boots": {
+    "criteria": {
+      "has_item": "2026-01-15 02:39:51 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_asurine_brick_wall_from_stone_types_asurine_stonecutting": {
+    "criteria": {
+      "has_stone_types_asurine": "2026-01-15 02:20:50 +0000"
+    },
+    "done": true
+  },
+  "spelunkery:recipes/inkcap_mushroom": {
+    "criteria": {
+      "has_item": "2026-01-15 02:46:21 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/asurine_pillar_from_stone_types_asurine_stonecutting": {
+    "criteria": {
+      "has_stone_types_asurine": "2026-01-15 02:20:50 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_asurine_from_stone_types_asurine_stonecutting": {
+    "criteria": {
+      "has_stone_types_asurine": "2026-01-15 02:20:50 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/asurine_from_stone_types_asurine_stonecutting": {
+    "criteria": {
+      "has_stone_types_asurine": "2026-01-15 02:20:50 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_asurine_stairs_from_stone_types_asurine_stonecutting": {
+    "criteria": {
+      "has_stone_types_asurine": "2026-01-15 02:20:50 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/tools/silver_ingot_from_smelting_raw_silver": {
+    "criteria": {
+      "has_raw_silver": "2026-01-15 02:43:04 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_asurine_bricks_from_stone_types_asurine_stonecutting": {
+    "criteria": {
+      "has_stone_types_asurine": "2026-01-15 02:20:50 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/diamond_steel/uppercut": {
+    "criteria": {
+      "uppercut": "2026-01-15 02:27:05 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_asurine_brick_slab_from_stone_types_asurine_stonecutting": {
+    "criteria": {
+      "has_stone_types_asurine": "2026-01-15 02:20:50 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/building_blocks/raw_silver_to_raw_silver_block": {
+    "criteria": {
+      "has_raw_silver": "2026-01-15 02:43:04 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/building_blocks/dragonscales_gray_to_dragonscale_gray": {
+    "criteria": {
+      "has_dragonscales_gray": "2026-01-15 02:39:51 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_asurine_wall_from_stone_types_asurine_stonecutting": {
+    "criteria": {
+      "has_stone_types_asurine": "2026-01-15 02:20:50 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_asurine_bricks_from_stone_types_asurine_stonecutting": {
+    "criteria": {
+      "has_stone_types_asurine": "2026-01-15 02:20:50 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/tools/silver_ingot_from_blasting_raw_silver": {
+    "criteria": {
+      "has_raw_silver": "2026-01-15 02:43:04 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_asurine_brick_slab_from_stone_types_asurine_stonecutting": {
+    "criteria": {
+      "has_stone_types_asurine": "2026-01-15 02:20:50 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/armor_red_helmet": {
+    "criteria": {
+      "has_item": "2026-01-15 02:34:52 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/building_blocks/dragonscales_red_to_dragonscale_red": {
+    "criteria": {
+      "has_dragonscales_red": "2026-01-15 02:34:52 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/armor_red_boots": {
+    "criteria": {
+      "has_item": "2026-01-15 02:34:52 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_asurine_from_stone_types_asurine_stonecutting": {
+    "criteria": {
+      "has_stone_types_asurine": "2026-01-15 02:20:50 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_asurine_slab_from_stone_types_asurine_stonecutting": {
+    "criteria": {
+      "has_stone_types_asurine": "2026-01-15 02:20:50 +0000"
+    },
+    "done": true
+  },
+  "idas:castle": {
+    "criteria": {
+      "in_castle": "2026-01-15 03:02:08 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_asurine_brick_stairs_from_stone_types_asurine_stonecutting": {
+    "criteria": {
+      "has_stone_types_asurine": "2026-01-15 02:20:50 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/layered_asurine_from_stone_types_asurine_stonecutting": {
+    "criteria": {
+      "has_stone_types_asurine": "2026-01-15 02:20:50 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/dragonbone_sword_fire": {
+    "criteria": {
+      "has_item": "2026-01-15 02:34:45 +0000"
     },
     "done": true
   },
