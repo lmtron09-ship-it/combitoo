@@ -176,6 +176,7 @@
       "minecraft:grove": "2026-01-15 03:01:55 +0000",
       "minecraft:jagged_peaks": "2026-01-15 03:02:59 +0000",
       "minecraft:forest": "2026-01-15 02:42:01 +0000",
+      "minecraft:lush_caves": "2026-01-15 04:00:06 +0000",
       "minecraft:ocean": "2026-01-15 03:04:12 +0000",
       "minecraft:savanna": "2026-01-15 02:18:05 +0000",
       "minecraft:plains": "2026-01-15 02:30:36 +0000"
@@ -184,6 +185,7 @@
   },
   "lootr:social": {
     "criteria": {
+      "opened_barrel": "2026-01-15 04:12:31 +0000",
       "opened_chest": "2026-01-15 02:19:37 +0000"
     },
     "done": false
@@ -1480,6 +1482,8 @@
   },
   "regions_unexplored:regions_explored": {
     "criteria": {
+      "mauve_hills": "2026-01-15 04:18:15 +0000",
+      "barley_fields": "2026-01-15 03:58:32 +0000",
       "ochard": "2026-01-15 02:28:18 +0000",
       "highland_fields": "2026-01-15 02:33:41 +0000",
       "chalk_cliffs": "2026-01-15 03:06:38 +0000"
@@ -1488,6 +1492,8 @@
   },
   "regions_unexplored:pioneer": {
     "criteria": {
+      "mauve_hills": "2026-01-15 04:18:15 +0000",
+      "barley_fields": "2026-01-15 03:58:32 +0000",
       "ochard": "2026-01-15 02:28:18 +0000",
       "highland_fields": "2026-01-15 02:33:41 +0000",
       "chalk_cliffs": "2026-01-15 03:06:38 +0000"
@@ -1779,6 +1785,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_beef": "2026-01-15 02:34:59 +0000",
+      "pumpkin_pie": "2026-01-15 04:22:25 +0000",
       "bread": "2026-01-15 02:31:53 +0000"
     },
     "done": false
@@ -2199,7 +2206,9 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
-      "minecraft:spider": "2026-01-15 02:46:50 +0000"
+      "minecraft:skeleton": "2026-01-15 03:59:48 +0000",
+      "minecraft:spider": "2026-01-15 02:46:50 +0000",
+      "minecraft:zombie_villager": "2026-01-15 04:20:15 +0000"
     },
     "done": false
   },
@@ -2861,6 +2870,252 @@
   "minecraft:husbandry/tame_an_animal": {
     "criteria": {
       "tamed_animal": "2026-01-15 03:12:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_button": {
+    "criteria": {
+      "has_planks": "2026-01-15 04:10:02 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/decorations/sign_post_acacia": {
+    "criteria": {
+      "has_item": "2026-01-15 04:10:02 +0000"
+    },
+    "done": true
+  },
+  "hopo:minecraft/adventure/all_mineshaft": {
+    "criteria": {
+      "locate_vanilla_mineshaft_mesa": "2026-01-15 04:01:49 +0000"
+    },
+    "done": false
+  },
+  "regions_unexplored:recipes/decorations/spruce_shrub": {
+    "criteria": {
+      "has_spruce_sapling": "2026-01-15 04:12:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2026-01-15 04:21:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_horse_armor": "2026-01-15 04:21:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_stairs": {
+    "criteria": {
+      "has_planks": "2026-01-15 04:10:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_door": {
+    "criteria": {
+      "has_planks": "2026-01-15 04:10:02 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/appliances/tree_fertilizer": {
+    "criteria": {
+      "has_item": "2026-01-15 04:21:47 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/food/barley_smelting": {
+    "criteria": {
+      "has_barley": "2026-01-15 03:59:02 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/acacia_window": {
+    "criteria": {
+      "has_ingredient": "2026-01-15 04:10:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/acacia_sign": {
+    "criteria": {
+      "has_planks": "2026-01-15 04:10:02 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/redstone_illuminator": {
+    "criteria": {
+      "has_sea_lantern": "2026-01-15 04:21:43 +0000"
+    },
+    "done": true
+  },
+  "lootr:1barrel": {
+    "criteria": {
+      "opened_barrel": "2026-01-15 04:12:31 +0000"
+    },
+    "done": true
+  },
+  "caverns_and_chasms:recipes/building_blocks/rotten_flesh_block": {
+    "criteria": {
+      "has_rotten_flesh": "2026-01-15 04:20:16 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/food/barley_smoking": {
+    "criteria": {
+      "has_barley": "2026-01-15 03:59:02 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/gold_hippogryph_armor": {
+    "criteria": {
+      "has_item": "2026-01-15 04:21:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/orange_dye_from_orange_tulip": {
+    "criteria": {
+      "has_orange_tulip": "2026-01-15 04:17:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_bed": {
+    "criteria": {
+      "has_white_wool": "2026-01-15 03:58:55 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/iron_backpack_from_copper": {
+    "criteria": {
+      "has_copper_backpack": "2026-01-15 04:04:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2026-01-15 04:21:47 +0000"
+    },
+    "done": true
+  },
+  "paxelsfordummies:recipes/tools/iron_paxel": {
+    "criteria": {
+      "has_iron_axe": "2026-01-15 04:21:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_pressure_plate": {
+    "criteria": {
+      "has_planks": "2026-01-15 04:10:02 +0000"
+    },
+    "done": true
+  },
+  "netherexp:recipes/bone_blocks/bone_rod": {
+    "criteria": {
+      "has_item": "2026-01-15 04:00:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_horse_armor": "2026-01-15 04:21:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_slab": {
+    "criteria": {
+      "has_planks": "2026-01-15 04:10:02 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/tree_fertilizer": {
+    "criteria": {
+      "has_item": "2026-01-15 04:21:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_trapdoor": {
+    "criteria": {
+      "has_planks": "2026-01-15 04:10:02 +0000"
+    },
+    "done": true
+  },
+  "netherexp:recipes/bone_blocks/bone_fence": {
+    "criteria": {
+      "has_item": "2026-01-15 04:00:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2026-01-15 04:00:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_carpet": {
+    "criteria": {
+      "has_white_wool": "2026-01-15 03:58:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_fence_gate": {
+    "criteria": {
+      "has_planks": "2026-01-15 04:10:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_banner": {
+    "criteria": {
+      "has_white_wool": "2026-01-15 03:58:55 +0000"
+    },
+    "done": true
+  },
+  "lootr:10loot": {
+    "criteria": {
+      "loot_stat": "2026-01-15 04:21:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/muddy_mangrove_roots": {
+    "criteria": {
+      "has_mangrove_roots": "2026-01-15 04:13:15 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/copper_backpack": {
+    "criteria": {
+      "has_backpack": "2026-01-15 04:03:05 +0000"
+    },
+    "done": true
+  },
+  "species:recipes/bone_spike": {
+    "criteria": {
+      "has_item": "2026-01-15 04:00:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/acacia_fence": {
+    "criteria": {
+      "has_planks": "2026-01-15 04:10:02 +0000"
+    },
+    "done": true
+  },
+  "legendary_additions:recipes/decorations/acacia_window": {
+    "criteria": {
+      "has_acacia_planks": "2026-01-15 04:10:02 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/gold_backpack": {
+    "criteria": {
+      "has_iron_backpack": "2026-01-15 04:05:50 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/iron_backpack": {
+    "criteria": {
+      "has_backpack": "2026-01-15 04:03:05 +0000"
     },
     "done": true
   },

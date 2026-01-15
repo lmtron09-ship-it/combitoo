@@ -143,6 +143,7 @@
       "minecraft:taiga": "2026-01-13 02:21:50 +0000",
       "minecraft:frozen_river": "2026-01-12 22:48:47 +0000",
       "minecraft:sunflower_plains": "2026-01-13 02:40:38 +0000",
+      "minecraft:cherry_grove": "2026-01-15 04:08:41 +0000",
       "minecraft:birch_forest": "2026-01-13 02:27:21 +0000",
       "minecraft:bamboo_jungle": "2026-01-15 02:59:36 +0000",
       "minecraft:savanna_plateau": "2026-01-12 00:03:59 +0000",
@@ -8402,6 +8403,54 @@
   "iceandfire:recipes/combat/armor_electric_leggings": {
     "criteria": {
       "has_item": "2026-01-15 03:13:20 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/armor_white_leggings": {
+    "criteria": {
+      "has_item": "2026-01-15 04:12:23 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/dragon_ice": {
+    "criteria": {
+      "has_item": "2026-01-15 04:11:18 +0000"
+    },
+    "done": true
+  },
+  "legendary_monsters:locate_cloudy_temple": {
+    "criteria": {
+      "cloudy_temple": "2026-01-15 03:58:32 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/armor_white_helmet": {
+    "criteria": {
+      "has_item": "2026-01-15 04:12:23 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/building_blocks/dragonscales_white_to_dragonscale_white": {
+    "criteria": {
+      "has_dragonscales_white": "2026-01-15 04:12:23 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/armor_white_chestplate": {
+    "criteria": {
+      "has_item": "2026-01-15 04:12:23 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/armor_white_boots": {
+    "criteria": {
+      "has_item": "2026-01-15 04:12:23 +0000"
+    },
+    "done": true
+  },
+  "legendary_monsters:defeat_cloud_golem": {
+    "criteria": {
+      "cloud_golem": "2026-01-15 04:03:31 +0000"
     },
     "done": true
   },
