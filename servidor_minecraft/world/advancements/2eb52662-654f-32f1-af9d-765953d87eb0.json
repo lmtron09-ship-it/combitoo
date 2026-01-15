@@ -141,6 +141,7 @@
     "criteria": {
       "minecraft:snowy_slopes": "2026-01-12 03:10:23 +0000",
       "minecraft:taiga": "2026-01-13 02:21:50 +0000",
+      "minecraft:deep_ocean": "2026-01-15 04:37:17 +0000",
       "minecraft:frozen_river": "2026-01-12 22:48:47 +0000",
       "minecraft:sunflower_plains": "2026-01-13 02:40:38 +0000",
       "minecraft:cherry_grove": "2026-01-15 04:08:41 +0000",
@@ -168,6 +169,7 @@
       "minecraft:ocean": "2026-01-13 05:02:25 +0000",
       "minecraft:old_growth_spruce_taiga": "2026-01-13 04:56:31 +0000",
       "minecraft:snowy_beach": "2026-01-12 22:48:26 +0000",
+      "minecraft:deep_lukewarm_ocean": "2026-01-15 04:37:04 +0000",
       "minecraft:flower_forest": "2026-01-13 02:41:25 +0000",
       "minecraft:frozen_peaks": "2026-01-12 03:20:20 +0000",
       "minecraft:old_growth_birch_forest": "2026-01-13 02:27:09 +0000",
@@ -1615,6 +1617,7 @@
       "prismachasm": "2026-01-12 02:39:26 +0000",
       "ancient_delta": "2026-01-12 01:53:46 +0000",
       "willow_forest": "2026-01-15 02:30:53 +0000",
+      "barley_fields": "2026-01-15 04:22:52 +0000",
       "redstone_caves": "2026-01-12 03:30:58 +0000",
       "grassy_beach": "2026-01-15 03:08:10 +0000",
       "mycotoxic_undergrowth": "2026-01-12 05:13:36 +0000",
@@ -1638,6 +1641,7 @@
       "mauve_hills": "2026-01-15 02:50:25 +0000",
       "muddy_river": "2026-01-12 22:47:48 +0000",
       "willow_forest": "2026-01-15 02:30:53 +0000",
+      "barley_fields": "2026-01-15 04:22:52 +0000",
       "grassy_beach": "2026-01-15 03:08:10 +0000",
       "ochard": "2026-01-12 01:44:04 +0000",
       "highland_fields": "2026-01-12 00:43:03 +0000",
@@ -8442,15 +8446,51 @@
     },
     "done": true
   },
+  "legendary_monsters:locate_mossy_temple": {
+    "criteria": {
+      "mossy_temple": "2026-01-15 04:28:44 +0000"
+    },
+    "done": true
+  },
   "iceandfire:recipes/combat/armor_white_boots": {
     "criteria": {
       "has_item": "2026-01-15 04:12:23 +0000"
     },
     "done": true
   },
+  "iceandfire:recipes/building_blocks/dragonscales_bronze_to_dragonscale_bronze": {
+    "criteria": {
+      "has_dragonscales_bronze": "2026-01-15 04:23:30 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/armor_bronze_boots": {
+    "criteria": {
+      "has_item": "2026-01-15 04:23:30 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/armor_bronze_leggings": {
+    "criteria": {
+      "has_item": "2026-01-15 04:23:30 +0000"
+    },
+    "done": true
+  },
   "legendary_monsters:defeat_cloud_golem": {
     "criteria": {
       "cloud_golem": "2026-01-15 04:03:31 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/armor_bronze_chestplate": {
+    "criteria": {
+      "has_item": "2026-01-15 04:23:30 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/armor_bronze_helmet": {
+    "criteria": {
+      "has_item": "2026-01-15 04:23:30 +0000"
     },
     "done": true
   },

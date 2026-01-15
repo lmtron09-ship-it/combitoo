@@ -2897,6 +2897,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/mud_brick_slab_from_mud_bricks_stonecutting": {
+    "criteria": {
+      "has_mud_bricks": "2026-01-15 04:23:59 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/white_dye": {
     "criteria": {
       "has_bone_meal": "2026-01-15 04:21:47 +0000"
@@ -2909,15 +2915,39 @@
     },
     "done": true
   },
+  "scguns:main/gunpowder": {
+    "criteria": {
+      "gunpowder": "2026-01-15 04:36:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/acacia_stairs": {
     "criteria": {
       "has_planks": "2026-01-15 04:10:02 +0000"
     },
     "done": true
   },
+  "regions_unexplored:recipes/building_blocks/ash": {
+    "criteria": {
+      "has_gunpowder": "2026-01-15 04:36:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/acacia_door": {
     "criteria": {
       "has_planks": "2026-01-15 04:10:02 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:affix/socket": {
+    "criteria": {
+      "socket": "2026-01-15 04:31:38 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/sign_post_spruce": {
+    "criteria": {
+      "has_spruce_sign": "2026-01-15 04:34:04 +0000"
     },
     "done": true
   },
@@ -2936,6 +2966,18 @@
   "create:recipes/building_blocks/acacia_window": {
     "criteria": {
       "has_ingredient": "2026-01-15 04:10:02 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/sign_post_oak": {
+    "criteria": {
+      "has_oak_sign": "2026-01-15 04:35:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mud_brick_stairs": {
+    "criteria": {
+      "has_mud_bricks": "2026-01-15 04:23:59 +0000"
     },
     "done": true
   },
@@ -2963,6 +3005,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/mud_brick_wall_from_mud_bricks_stonecutting": {
+    "criteria": {
+      "has_mud_bricks": "2026-01-15 04:23:59 +0000"
+    },
+    "done": true
+  },
   "regions_unexplored:recipes/food/barley_smoking": {
     "criteria": {
       "has_barley": "2026-01-15 03:59:02 +0000"
@@ -2984,6 +3032,18 @@
   "minecraft:recipes/decorations/white_bed": {
     "criteria": {
       "has_white_wool": "2026-01-15 03:58:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2026-01-15 04:36:50 +0000"
+    },
+    "done": true
+  },
+  "caverns_and_chasms:recipes/misc/bejeweled_pearl": {
+    "criteria": {
+      "has_ender_pearl": "2026-01-15 04:23:32 +0000"
     },
     "done": true
   },
@@ -3047,6 +3107,24 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/mud_brick_wall": {
+    "criteria": {
+      "has_mud_bricks": "2026-01-15 04:23:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mud_brick_stairs_from_mud_bricks_stonecutting": {
+    "criteria": {
+      "has_mud_bricks": "2026-01-15 04:23:59 +0000"
+    },
+    "done": true
+  },
+  "iammusicplayer:recipes/misc/parabolic_antenna": {
+    "criteria": {
+      "has_ender_pearl": "2026-01-15 04:23:32 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/bone_meal": {
     "criteria": {
       "has_bone": "2026-01-15 04:00:02 +0000"
@@ -3062,6 +3140,18 @@
   "minecraft:recipes/redstone/acacia_fence_gate": {
     "criteria": {
       "has_planks": "2026-01-15 04:10:02 +0000"
+    },
+    "done": true
+  },
+  "dungeonnowloading:recipes/combat/explosive_barrel": {
+    "criteria": {
+      "has_gunpowder": "2026-01-15 04:36:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mud_brick_slab": {
+    "criteria": {
+      "has_mud_bricks": "2026-01-15 04:23:59 +0000"
     },
     "done": true
   },
@@ -3095,6 +3185,12 @@
     },
     "done": true
   },
+  "spelunkery:recipes/gunpowder": {
+    "criteria": {
+      "has_item": "2026-01-15 04:36:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/acacia_fence": {
     "criteria": {
       "has_planks": "2026-01-15 04:10:02 +0000"
@@ -3110,6 +3206,18 @@
   "sophisticatedbackpacks:recipes/misc/gold_backpack": {
     "criteria": {
       "has_iron_backpack": "2026-01-15 04:05:50 +0000"
+    },
+    "done": true
+  },
+  "iammusicplayer:recipes/misc/radio_antenna": {
+    "criteria": {
+      "has_ender_pearl": "2026-01-15 04:23:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2026-01-15 04:36:50 +0000"
     },
     "done": true
   },
