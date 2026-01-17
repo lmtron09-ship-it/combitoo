@@ -167,7 +167,9 @@
       "minecraft:stony_shore": "2026-01-12 03:09:51 +0000",
       "minecraft:dripstone_caves": "2026-01-13 06:00:13 +0000",
       "minecraft:grove": "2026-01-12 02:28:10 +0000",
+      "minecraft:jagged_peaks": "2026-01-17 08:17:14 +0000",
       "minecraft:forest": "2026-01-10 20:04:15 +0000",
+      "minecraft:ocean": "2026-01-17 08:15:45 +0000",
       "minecraft:frozen_peaks": "2026-01-12 03:13:21 +0000",
       "minecraft:old_growth_birch_forest": "2026-01-12 03:52:42 +0000",
       "minecraft:deep_dark": "2026-01-12 20:27:04 +0000",
@@ -9421,27 +9423,27 @@
     },
     "done": true
   },
-  "supplementaries:recipes/candle_holders/candle_holder_white_dye": {
-    "criteria": {
-      "forge:dyes/white": "2026-01-17 05:26:50 +0000"
-    },
-    "done": true
-  },
   "terramity:stone_mask_advancement": {
     "criteria": {
       "stone_mask_advancement_0": "2026-01-17 04:52:36 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dye_white_bed": {
+  "scguns:main/piglin/freyr": {
     "criteria": {
-      "has_needed_dye": "2026-01-17 05:26:50 +0000"
+      "freyr": "2026-01-17 04:57:01 +0000"
     },
     "done": true
   },
-  "scguns:main/deep_dark/echoes_2": {
+  "supplementaries:recipes/candle_holders/candle_holder_white_dye": {
     "criteria": {
-      "echoes_2": "2026-01-17 06:53:40 +0000"
+      "forge:dyes/white": "2026-01-17 05:26:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_white_bed": {
+    "criteria": {
+      "has_needed_dye": "2026-01-17 05:26:50 +0000"
     },
     "done": true
   },
@@ -9454,12 +9456,6 @@
   "minecraft:recipes/misc/light_blue_dye_from_blue_white_dye": {
     "criteria": {
       "has_white_dye": "2026-01-17 05:26:50 +0000"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/tame_an_animal": {
-    "criteria": {
-      "tamed_animal": "2026-01-17 06:24:01 +0000"
     },
     "done": true
   },
@@ -9481,39 +9477,15 @@
     },
     "done": true
   },
-  "terramity:excalibur_advancement": {
-    "criteria": {
-      "excalibur_advancement_0": "2026-01-17 06:12:16 +0000"
-    },
-    "done": true
-  },
-  "royalvariations:bony_king": {
-    "criteria": {
-      "royal_skeleton": "2026-01-17 06:07:20 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/white_candle": {
     "criteria": {
       "has_white_dye": "2026-01-17 05:26:50 +0000"
     },
     "done": true
   },
-  "scguns:main/piglin/freyr": {
-    "criteria": {
-      "freyr": "2026-01-17 04:57:01 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/dye_white_carpet": {
     "criteria": {
       "has_needed_dye": "2026-01-17 05:26:50 +0000"
-    },
-    "done": true
-  },
-  "scguns:main/peal": {
-    "criteria": {
-      "peal": "2026-01-17 06:53:24 +0000"
     },
     "done": true
   },
@@ -9532,6 +9504,114 @@
   "minecraft:recipes/misc/light_gray_dye_from_black_white_dye": {
     "criteria": {
       "has_white_dye": "2026-01-17 05:26:50 +0000"
+    },
+    "done": true
+  },
+  "royalvariations:bony_king": {
+    "criteria": {
+      "royal_skeleton": "2026-01-17 06:07:20 +0000"
+    },
+    "done": true
+  },
+  "terramity:excalibur_advancement": {
+    "criteria": {
+      "excalibur_advancement_0": "2026-01-17 06:12:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2026-01-17 06:24:01 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/peal": {
+    "criteria": {
+      "peal": "2026-01-17 06:53:24 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/deep_dark/echoes_2": {
+    "criteria": {
+      "echoes_2": "2026-01-17 06:53:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2026-01-17 08:14:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_pink": {
+    "criteria": {
+      "has_blue_dye": "2026-01-17 08:10:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_blue_wool": {
+    "criteria": {
+      "has_needed_dye": "2026-01-17 08:10:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_blue_carpet": {
+    "criteria": {
+      "has_needed_dye": "2026-01-17 08:10:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2026-01-17 08:14:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_blue_bed": {
+    "criteria": {
+      "has_needed_dye": "2026-01-17 08:10:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/cyan_dye": {
+    "criteria": {
+      "has_blue_dye": "2026-01-17 08:10:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2026-01-17 08:14:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_candle": {
+    "criteria": {
+      "has_blue_dye": "2026-01-17 08:10:21 +0000"
+    },
+    "done": true
+  },
+  "mowziesmobs:kill_frostmaw": {
+    "criteria": {
+      "frostmaw": "2026-01-17 08:20:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/purple_dye": {
+    "criteria": {
+      "has_blue_dye": "2026-01-17 08:10:21 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/candle_holders/candle_holder_blue_dye": {
+    "criteria": {
+      "forge:dyes/blue": "2026-01-17 08:10:21 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/misc/light_blue_dye_from_felicia_daisy": {
+    "criteria": {
+      "has_felicia_daisy": "2026-01-17 07:50:06 +0000"
     },
     "done": true
   },

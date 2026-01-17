@@ -10141,15 +10141,9 @@
     },
     "done": true
   },
-  "scguns:main/deep_dark/echoes_2": {
+  "minecraft:recipes/misc/black_dye_from_wither_rose": {
     "criteria": {
-      "echoes_2": "2026-01-17 06:52:33 +0000"
-    },
-    "done": true
-  },
-  "scguns:main/piglin/pyroclastic_flow": {
-    "criteria": {
-      "pyroclastic_flow": "2026-01-17 07:11:14 +0000"
+      "has_wither_rose": "2026-01-17 06:01:19 +0000"
     },
     "done": true
   },
@@ -10165,9 +10159,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/black_dye_from_wither_rose": {
+  "scguns:main/deep_dark/echoes_2": {
     "criteria": {
-      "has_wither_rose": "2026-01-17 06:01:19 +0000"
+      "echoes_2": "2026-01-17 06:52:33 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/piglin/pyroclastic_flow": {
+    "criteria": {
+      "pyroclastic_flow": "2026-01-17 07:11:14 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/iron/defender_pistol": {
+    "criteria": {
+      "defender_pistol": "2026-01-17 07:53:40 +0000"
     },
     "done": true
   },
