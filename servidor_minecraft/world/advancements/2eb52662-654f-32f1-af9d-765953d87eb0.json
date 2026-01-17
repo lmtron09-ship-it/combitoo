@@ -877,6 +877,7 @@
       "minecraft:pillager": "2026-01-12 00:37:49 +0000",
       "minecraft:blaze": "2026-01-17 01:40:07 +0000",
       "minecraft:skeleton": "2026-01-11 23:53:29 +0000",
+      "minecraft:vindicator": "2026-01-17 06:51:27 +0000",
       "minecraft:spider": "2026-01-12 00:11:42 +0000",
       "minecraft:piglin_brute": "2026-01-16 06:30:36 +0000",
       "minecraft:creeper": "2026-01-11 23:58:01 +0000",
@@ -4209,6 +4210,7 @@
   },
   "spelunkery:spelunkery/every_ore": {
     "criteria": {
+      "nether_quartz_ore": "2026-01-17 04:21:05 +0000",
       "copper_ore": "2026-01-16 22:38:12 +0000",
       "coal_ore": "2026-01-16 22:54:38 +0000",
       "emerald_ore": "2026-01-12 02:20:52 +0000",
@@ -6171,9 +6173,10 @@
       "minecraft:crimson_forest": "2026-01-16 22:09:15 +0000",
       "minecraft:nether_wastes": "2026-01-12 05:18:48 +0000",
       "minecraft:soul_sand_valley": "2026-01-12 05:18:53 +0000",
-      "minecraft:basalt_deltas": "2026-01-12 05:16:57 +0000"
+      "minecraft:basalt_deltas": "2026-01-12 05:16:57 +0000",
+      "minecraft:warped_forest": "2026-01-17 04:21:13 +0000"
     },
-    "done": false
+    "done": true
   },
   "netherexp:nether/soul_sand_valley": {
     "criteria": {
@@ -10051,6 +10054,120 @@
   "bosses_of_mass_destruction:recipes/blast_amplifier": {
     "criteria": {
       "has_blazing_eye": "2026-01-17 02:03:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/flower_banner_pattern": {
+    "criteria": {
+      "has_oxeye_daisy": "2026-01-17 02:39:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
+    "criteria": {
+      "has_oxeye_daisy": "2026-01-17 02:39:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_poppy": "2026-01-17 03:29:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2026-01-17 03:29:52 +0000"
+    },
+    "done": true
+  },
+  "infernalexp:recipes/building_blocks/polished_glowstone": {
+    "criteria": {
+      "has_glowstone": "2026-01-17 04:15:30 +0000"
+    },
+    "done": true
+  },
+  "caverns_and_chasms:recipes/building_blocks/lapis_lamp": {
+    "criteria": {
+      "has_glowstone": "2026-01-17 04:15:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2026-01-17 04:15:30 +0000"
+    },
+    "done": true
+  },
+  "caverns_and_chasms:recipes/building_blocks/spinel_lamp": {
+    "criteria": {
+      "has_glowstone": "2026-01-17 04:15:30 +0000"
+    },
+    "done": true
+  },
+  "netherexp:recipes/ivy/weeping_ivy": {
+    "criteria": {
+      "has_item": "2026-01-17 04:20:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/quartz": {
+    "criteria": {
+      "has_nether_quartz_ore": "2026-01-17 04:21:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/quartz_from_blasting": {
+    "criteria": {
+      "has_nether_quartz_ore": "2026-01-17 04:21:05 +0000"
+    },
+    "done": true
+  },
+  "terramity:lucky_sevens_advancement": {
+    "criteria": {
+      "lucky_sevens_advancement_0": "2026-01-17 05:08:37 +0000"
+    },
+    "done": true
+  },
+  "terramity:lucky_cherries_advancement": {
+    "criteria": {
+      "lucky_cherries_advancement_0": "2026-01-17 05:22:03 +0000"
+    },
+    "done": true
+  },
+  "terramity:most_gamblers_quit_advancement": {
+    "criteria": {
+      "most_gamblers_quit_advancement_0": "2026-01-17 05:22:39 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/deep_dark/echoes_2": {
+    "criteria": {
+      "echoes_2": "2026-01-17 06:52:33 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/piglin/pyroclastic_flow": {
+    "criteria": {
+      "pyroclastic_flow": "2026-01-17 07:11:14 +0000"
+    },
+    "done": true
+  },
+  "terramity:excalibur_advancement": {
+    "criteria": {
+      "excalibur_advancement_0": "2026-01-17 06:18:37 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/decorations/oak_shrub": {
+    "criteria": {
+      "has_oak_sapling": "2026-01-17 06:39:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye_from_wither_rose": {
+    "criteria": {
+      "has_wither_rose": "2026-01-17 06:01:19 +0000"
     },
     "done": true
   },

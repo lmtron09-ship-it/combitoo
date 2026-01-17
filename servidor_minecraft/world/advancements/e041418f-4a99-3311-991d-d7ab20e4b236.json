@@ -1392,6 +1392,7 @@
     "criteria": {
       "caverns_and_chasms:deeper": "2026-01-12 20:26:03 +0000",
       "minecraft:pillager": "2026-01-13 05:40:16 +0000",
+      "minecraft:blaze": "2026-01-17 02:58:19 +0000",
       "minecraft:skeleton": "2026-01-12 01:12:54 +0000",
       "minecraft:ghast": "2026-01-17 01:41:07 +0000",
       "minecraft:guardian": "2026-01-12 20:29:12 +0000",
@@ -1408,6 +1409,7 @@
       "minecraft:piglin": "2026-01-17 01:31:39 +0000",
       "minecraft:silverfish": "2026-01-12 02:47:17 +0000",
       "minecraft:enderman": "2026-01-12 05:40:31 +0000",
+      "minecraft:stray": "2026-01-17 03:04:18 +0000",
       "caverns_and_chasms:mime": "2026-01-12 21:19:42 +0000",
       "minecraft:zombie": "2026-01-12 00:02:10 +0000",
       "minecraft:drowned": "2026-01-13 04:10:48 +0000",
@@ -7488,9 +7490,10 @@
   },
   "create:wrench_goggles": {
     "criteria": {
-      "0": "2026-01-13 05:29:21 +0000"
+      "0": "2026-01-13 05:29:21 +0000",
+      "1": "2026-01-17 02:57:29 +0000"
     },
-    "done": false
+    "done": true
   },
   "minecraft:adventure/voluntary_exile": {
     "criteria": {
@@ -9286,6 +9289,18 @@
     },
     "done": true
   },
+  "bosses_of_mass_destruction:recipes/levitation_block": {
+    "criteria": {
+      "has_blazing_eye": "2026-01-17 02:03:42 +0000"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:recipes/blast_amplifier": {
+    "criteria": {
+      "has_blazing_eye": "2026-01-17 02:03:42 +0000"
+    },
+    "done": true
+  },
   "supplementaries:recipes/netherite_trapdoor": {
     "criteria": {
       "has_netherite_scrap": "2026-01-17 02:03:51 +0000"
@@ -9304,18 +9319,6 @@
     },
     "done": true
   },
-  "bosses_of_mass_destruction:recipes/levitation_block": {
-    "criteria": {
-      "has_blazing_eye": "2026-01-17 02:03:42 +0000"
-    },
-    "done": true
-  },
-  "bosses_of_mass_destruction:recipes/blast_amplifier": {
-    "criteria": {
-      "has_blazing_eye": "2026-01-17 02:03:42 +0000"
-    },
-    "done": true
-  },
   "caverns_and_chasms:recipes/misc/necromium_ingot": {
     "criteria": {
       "has_netherite_scrap": "2026-01-17 02:03:51 +0000"
@@ -9325,6 +9328,210 @@
   "supplementaries:recipes/netherite_door": {
     "criteria": {
       "has_netherite_scrap": "2026-01-17 02:03:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
+    "criteria": {
+      "has_ancient_debris": "2026-01-17 02:49:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap": {
+    "criteria": {
+      "has_ancient_debris": "2026-01-17 02:49:44 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:spawner/root": {
+    "criteria": {
+      "spawner": "2026-01-17 02:50:13 +0000"
+    },
+    "done": true
+  },
+  "create:burner": {
+    "criteria": {
+      "0": "2026-01-17 02:51:58 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/copper_blueprint": {
+    "criteria": {
+      "copper_blueprint": "2026-01-17 03:14:21 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/copper/llr_director": {
+    "criteria": {
+      "llr_director": "2026-01-17 03:14:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_azure_bluet": {
+    "criteria": {
+      "has_azure_bluet": "2026-01-17 03:30:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/flower_banner_pattern": {
+    "criteria": {
+      "has_oxeye_daisy": "2026-01-17 03:41:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
+    "criteria": {
+      "has_oxeye_daisy": "2026-01-17 03:41:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/pumpkin_pie": {
+    "criteria": {
+      "has_pumpkin": "2026-01-17 03:55:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin": "2026-01-17 03:55:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin": "2026-01-17 03:55:22 +0000"
+    },
+    "done": true
+  },
+  "vanillabackport:recipes/food/pumpkin_pie": {
+    "criteria": {
+      "has_pumpkin": "2026-01-17 03:55:22 +0000"
+    },
+    "done": true
+  },
+  "terramity:lucky_sevens_advancement": {
+    "criteria": {
+      "lucky_sevens_advancement_0": "2026-01-17 04:25:13 +0000"
+    },
+    "done": true
+  },
+  "terramity:most_gamblers_quit_advancement": {
+    "criteria": {
+      "most_gamblers_quit_advancement_0": "2026-01-17 04:26:20 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/candle_holders/candle_holder_white_dye": {
+    "criteria": {
+      "forge:dyes/white": "2026-01-17 05:26:50 +0000"
+    },
+    "done": true
+  },
+  "terramity:stone_mask_advancement": {
+    "criteria": {
+      "stone_mask_advancement_0": "2026-01-17 04:52:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_white_bed": {
+    "criteria": {
+      "has_needed_dye": "2026-01-17 05:26:50 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/deep_dark/echoes_2": {
+    "criteria": {
+      "echoes_2": "2026-01-17 06:53:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lime_dye": {
+    "criteria": {
+      "has_white_dye": "2026-01-17 05:26:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_white_dye": {
+    "criteria": {
+      "has_white_dye": "2026-01-17 05:26:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2026-01-17 06:24:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_gray_white_dye": {
+    "criteria": {
+      "has_white_dye": "2026-01-17 05:26:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gray_dye": {
+    "criteria": {
+      "has_white_dye": "2026-01-17 05:26:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_white_dye": {
+    "criteria": {
+      "has_white_dye": "2026-01-17 05:26:50 +0000"
+    },
+    "done": true
+  },
+  "terramity:excalibur_advancement": {
+    "criteria": {
+      "excalibur_advancement_0": "2026-01-17 06:12:16 +0000"
+    },
+    "done": true
+  },
+  "royalvariations:bony_king": {
+    "criteria": {
+      "royal_skeleton": "2026-01-17 06:07:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_candle": {
+    "criteria": {
+      "has_white_dye": "2026-01-17 05:26:50 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/piglin/freyr": {
+    "criteria": {
+      "freyr": "2026-01-17 04:57:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_white_carpet": {
+    "criteria": {
+      "has_needed_dye": "2026-01-17 05:26:50 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/peal": {
+    "criteria": {
+      "peal": "2026-01-17 06:53:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_white_wool": {
+    "criteria": {
+      "has_needed_dye": "2026-01-17 05:26:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_red_white_dye": {
+    "criteria": {
+      "has_white_dye": "2026-01-17 05:26:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_black_white_dye": {
+    "criteria": {
+      "has_white_dye": "2026-01-17 05:26:50 +0000"
     },
     "done": true
   },
