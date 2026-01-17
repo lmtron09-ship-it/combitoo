@@ -2034,10 +2034,13 @@
       "prismachasm": "2026-01-12 02:39:12 +0000",
       "willow_forest": "2026-01-12 20:47:21 +0000",
       "grassy_beach": "2026-01-12 20:41:14 +0000",
+      "mycotoxic_undergrowth": "2026-01-17 01:22:04 +0000",
       "ochard": "2026-01-12 01:52:06 +0000",
       "highland_fields": "2026-01-12 00:40:46 +0000",
       "maple_forest": "2026-01-12 05:43:14 +0000",
       "mountains": "2026-01-12 02:24:29 +0000",
+      "glistering_meadow": "2026-01-17 01:14:29 +0000",
+      "blackstone_basin": "2026-01-17 01:22:12 +0000",
       "chalk_cliffs": "2026-01-12 20:19:12 +0000",
       "lupine_plains": "2026-01-12 20:47:53 +0000"
     },
@@ -6586,7 +6589,10 @@
   },
   "regions_unexplored:eternal_expedition": {
     "criteria": {
-      "redstone_abyss": "2026-01-16 23:24:19 +0000"
+      "mycotoxic_undergrowth": "2026-01-17 01:22:04 +0000",
+      "blackstone_basin": "2026-01-17 01:22:12 +0000",
+      "redstone_abyss": "2026-01-16 23:24:19 +0000",
+      "glistering_meadow": "2026-01-17 01:14:29 +0000"
     },
     "done": false
   },
@@ -7073,6 +7079,237 @@
   "supplementaries:recipes/bamboo_spikes": {
     "criteria": {
       "minecraft:wooden_slabs": "2026-01-17 00:11:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_chestplate": "2026-01-17 01:11:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:crimson_forest": "2026-01-17 01:19:53 +0000",
+      "minecraft:nether_wastes": "2026-01-17 01:16:05 +0000",
+      "minecraft:basalt_deltas": "2026-01-17 01:17:45 +0000",
+      "minecraft:warped_forest": "2026-01-17 01:15:55 +0000"
+    },
+    "done": false
+  },
+  "spelunkery:recipes/echo_shard": {
+    "criteria": {
+      "has_item": "2026-01-17 01:16:15 +0000"
+    },
+    "done": true
+  },
+  "caverns_and_chasms:recipes/building_blocks/echo_block": {
+    "criteria": {
+      "has_echo_shard": "2026-01-17 01:16:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/recovery_compass": {
+    "criteria": {
+      "has_echo_shard": "2026-01-17 01:16:15 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/decorations/tall_yellow_bioshroom": {
+    "criteria": {
+      "has_yellow_bioshroom": "2026-01-17 01:26:32 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/building_blocks/yellow_bioshroom_block": {
+    "criteria": {
+      "has_yellow_bioshroom": "2026-01-17 01:26:32 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:mycologist": {
+    "criteria": {
+      "yellow_bioshroom": "2026-01-17 01:26:32 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/warped_planks": {
+    "criteria": {
+      "has_logs": "2026-01-17 01:39:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/warped_hyphae": {
+    "criteria": {
+      "has_log": "2026-01-17 01:39:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_planks": {
+    "criteria": {
+      "has_logs": "2026-01-17 01:51:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_pressure_plate": {
+    "criteria": {
+      "has_planks": "2026-01-17 01:54:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crimson_sign": {
+    "criteria": {
+      "has_planks": "2026-01-17 01:54:55 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/decorations/sign_post_crimson": {
+    "criteria": {
+      "has_item": "2026-01-17 01:54:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_door": {
+    "criteria": {
+      "has_planks": "2026-01-17 01:54:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/warped_trapdoor": {
+    "criteria": {
+      "has_planks": "2026-01-17 01:50:00 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crimson_window": {
+    "criteria": {
+      "has_ingredient": "2026-01-17 01:54:55 +0000"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:recipes/levitation_block": {
+    "criteria": {
+      "has_blazing_eye": "2026-01-17 02:04:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/warped_pressure_plate": {
+    "criteria": {
+      "has_planks": "2026-01-17 01:50:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crimson_fence": {
+    "criteria": {
+      "has_planks": "2026-01-17 01:54:55 +0000"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:recipes/blast_amplifier": {
+    "criteria": {
+      "has_blazing_eye": "2026-01-17 02:04:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/warped_fence": {
+    "criteria": {
+      "has_planks": "2026-01-17 01:50:00 +0000"
+    },
+    "done": true
+  },
+  "legendary_additions:recipes/decorations/warped_window": {
+    "criteria": {
+      "has_warped_planks": "2026-01-17 01:50:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_button": {
+    "criteria": {
+      "has_planks": "2026-01-17 01:54:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_slab": {
+    "criteria": {
+      "has_planks": "2026-01-17 01:54:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_stairs": {
+    "criteria": {
+      "has_planks": "2026-01-17 01:54:55 +0000"
+    },
+    "done": true
+  },
+  "legendary_additions:recipes/decorations/crimson_window": {
+    "criteria": {
+      "has_crimson_planks": "2026-01-17 01:54:55 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/decorations/sign_post_warped": {
+    "criteria": {
+      "has_item": "2026-01-17 01:50:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/warped_fence_gate": {
+    "criteria": {
+      "has_planks": "2026-01-17 01:50:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_trapdoor": {
+    "criteria": {
+      "has_planks": "2026-01-17 01:54:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/warped_button": {
+    "criteria": {
+      "has_planks": "2026-01-17 01:50:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/warped_stairs": {
+    "criteria": {
+      "has_planks": "2026-01-17 01:50:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/warped_sign": {
+    "criteria": {
+      "has_planks": "2026-01-17 01:50:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/warped_door": {
+    "criteria": {
+      "has_planks": "2026-01-17 01:50:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/warped_slab": {
+    "criteria": {
+      "has_planks": "2026-01-17 01:50:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_hyphae": {
+    "criteria": {
+      "has_log": "2026-01-17 01:51:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_fence_gate": {
+    "criteria": {
+      "has_planks": "2026-01-17 01:54:55 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/warped_window": {
+    "criteria": {
+      "has_ingredient": "2026-01-17 01:50:00 +0000"
     },
     "done": true
   },

@@ -355,12 +355,16 @@
       "redstone_abyss": "2026-01-12 06:30:31 +0000",
       "prismachasm": "2026-01-12 02:39:21 +0000",
       "redstone_caves": "2026-01-12 20:16:07 +0000",
+      "mycotoxic_undergrowth": "2026-01-17 01:17:40 +0000",
       "ochard": "2026-01-12 01:27:23 +0000",
       "highland_fields": "2026-01-12 01:20:55 +0000",
       "maple_forest": "2026-01-13 03:06:33 +0000",
       "magnolia_highlands": "2026-01-12 19:11:53 +0000",
       "mountains": "2026-01-12 02:28:27 +0000",
+      "glistering_meadow": "2026-01-17 01:19:18 +0000",
+      "blackstone_basin": "2026-01-17 01:15:39 +0000",
       "chalk_cliffs": "2026-01-10 20:04:20 +0000",
+      "infernal_holt": "2026-01-17 01:17:28 +0000",
       "lupine_plains": "2026-01-12 19:10:46 +0000"
     },
     "done": false
@@ -1389,15 +1393,19 @@
       "caverns_and_chasms:deeper": "2026-01-12 20:26:03 +0000",
       "minecraft:pillager": "2026-01-13 05:40:16 +0000",
       "minecraft:skeleton": "2026-01-12 01:12:54 +0000",
+      "minecraft:ghast": "2026-01-17 01:41:07 +0000",
       "minecraft:guardian": "2026-01-12 20:29:12 +0000",
       "minecraft:spider": "2026-01-12 03:34:55 +0000",
       "minecraft:piglin_brute": "2026-01-16 06:31:27 +0000",
       "minecraft:creeper": "2026-01-12 02:42:36 +0000",
       "minecraft:slime": "2026-01-12 19:12:07 +0000",
       "caverns_and_chasms:peeper": "2026-01-12 20:18:04 +0000",
+      "minecraft:zombified_piglin": "2026-01-17 01:15:49 +0000",
       "minecraft:witch": "2026-01-13 01:53:23 +0000",
+      "minecraft:wither_skeleton": "2026-01-17 01:16:47 +0000",
       "minecraft:husk": "2026-01-12 21:00:03 +0000",
       "minecraft:cave_spider": "2026-01-12 21:06:37 +0000",
+      "minecraft:piglin": "2026-01-17 01:31:39 +0000",
       "minecraft:silverfish": "2026-01-12 02:47:17 +0000",
       "minecraft:enderman": "2026-01-12 05:40:31 +0000",
       "caverns_and_chasms:mime": "2026-01-12 21:19:42 +0000",
@@ -4970,16 +4978,23 @@
   },
   "regions_unexplored:eternal_expedition": {
     "criteria": {
-      "redstone_abyss": "2026-01-12 06:30:31 +0000"
+      "mycotoxic_undergrowth": "2026-01-17 01:17:40 +0000",
+      "blackstone_basin": "2026-01-17 01:15:39 +0000",
+      "infernal_holt": "2026-01-17 01:17:28 +0000",
+      "redstone_abyss": "2026-01-12 06:30:31 +0000",
+      "glistering_meadow": "2026-01-17 01:19:18 +0000"
     },
-    "done": false
+    "done": true
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
       "minecraft:crimson_forest": "2026-01-12 06:39:48 +0000",
-      "minecraft:soul_sand_valley": "2026-01-12 06:33:34 +0000"
+      "minecraft:soul_sand_valley": "2026-01-12 06:33:34 +0000",
+      "minecraft:nether_wastes": "2026-01-17 01:18:01 +0000",
+      "minecraft:basalt_deltas": "2026-01-17 01:18:03 +0000",
+      "minecraft:warped_forest": "2026-01-17 01:19:47 +0000"
     },
-    "done": false
+    "done": true
   },
   "netherexp:nether/soul_sand_valley": {
     "criteria": {
@@ -8599,21 +8614,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/brown_banner": {
+  "tetra:spelunking/geode": {
     "criteria": {
-      "has_brown_wool": "2026-01-17 00:17:26 +0000"
+      "get_geode": "2026-01-16 23:43:18 +0000"
     },
     "done": true
   },
-  "regions_unexplored:recipes/redstone/magnolia_button": {
+  "minecraft:recipes/redstone/redstone": {
     "criteria": {
-      "has_magnolia_planks": "2026-01-17 00:02:41 +0000"
+      "has_redstone_block": "2026-01-16 23:51:40 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/brown_bed": {
+  "iceandfire:iceandfire/dragon_egg": {
     "criteria": {
-      "has_brown_wool": "2026-01-17 00:17:26 +0000"
+      "egg": "2026-01-16 23:53:36 +0000"
     },
     "done": true
   },
@@ -8623,21 +8638,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/brewing/magma_cream": {
+  "iceandfire:recipes/misc/skull_to_bone_meal": {
     "criteria": {
-      "has_blaze_powder": "2026-01-17 00:27:38 +0000"
+      "has_item": "2026-01-16 23:56:18 +0000"
     },
     "done": true
   },
-  "create:recipes/building_blocks/cut_asurine_brick_wall_from_stone_types_asurine_stonecutting": {
+  "iceandfire:recipes/misc/dragon_stick": {
     "criteria": {
-      "has_stone_types_asurine": "2026-01-17 00:12:05 +0000"
+      "has_item": "2026-01-16 23:56:18 +0000"
     },
     "done": true
   },
-  "tetra:spelunking/geode": {
+  "infernalexp:recipes/building_blocks/dullstone": {
     "criteria": {
-      "get_geode": "2026-01-16 23:43:18 +0000"
+      "has_dullrocks": "2026-01-17 00:01:59 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/redstone/magnolia_button": {
+    "criteria": {
+      "has_magnolia_planks": "2026-01-17 00:02:41 +0000"
     },
     "done": true
   },
@@ -8653,45 +8674,81 @@
     },
     "done": true
   },
-  "minecraft:story/shiny_gear": {
-    "criteria": {
-      "diamond_chestplate": "2026-01-17 00:04:50 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/polished_cut_asurine_stairs_from_stone_types_asurine_stonecutting": {
-    "criteria": {
-      "has_stone_types_asurine": "2026-01-17 00:12:05 +0000"
-    },
-    "done": true
-  },
-  "infernalexp:recipes/building_blocks/polished_glowstone": {
-    "criteria": {
-      "has_glowstone": "2026-01-17 00:22:37 +0000"
-    },
-    "done": true
-  },
   "regions_unexplored:recipes/decorations/magnolia_fence": {
     "criteria": {
       "has_magnolia_planks": "2026-01-17 00:02:41 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/misc/fire_charge": {
-    "criteria": {
-      "has_blaze_powder": "2026-01-17 00:27:38 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:recipes/misc/skull_to_bone_meal": {
-    "criteria": {
-      "has_item": "2026-01-16 23:56:18 +0000"
-    },
-    "done": true
-  },
   "regions_unexplored:recipes/redstone/magnolia_fence_gate": {
     "criteria": {
       "has_magnolia_planks": "2026-01-17 00:02:41 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/building_blocks/magnolia_slab": {
+    "criteria": {
+      "has_magnolia_planks": "2026-01-17 00:02:41 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/decorations/regions_unexplored/sign_post_magnolia": {
+    "criteria": {
+      "has_item": "2026-01-17 00:02:41 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/building_blocks/magnolia_wood": {
+    "criteria": {
+      "has_log": "2026-01-17 00:02:41 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/building_blocks/magnolia_stairs": {
+    "criteria": {
+      "has_magnolia_planks": "2026-01-17 00:02:41 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/redstone/magnolia_door": {
+    "criteria": {
+      "has_magnolia_planks": "2026-01-17 00:02:41 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/redstone/magnolia_pressure_plate": {
+    "criteria": {
+      "has_magnolia_planks": "2026-01-17 00:02:41 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/decorations/magnolia_sign": {
+    "criteria": {
+      "has_magnolia_planks": "2026-01-17 00:02:41 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/decorations/magnolia_branch_from_magnolia_log": {
+    "criteria": {
+      "has_log": "2026-01-17 00:02:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_chestplate": "2026-01-17 00:04:50 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_asurine_brick_wall_from_stone_types_asurine_stonecutting": {
+    "criteria": {
+      "has_stone_types_asurine": "2026-01-17 00:12:05 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_asurine_stairs_from_stone_types_asurine_stonecutting": {
+    "criteria": {
+      "has_stone_types_asurine": "2026-01-17 00:12:05 +0000"
     },
     "done": true
   },
@@ -8713,57 +8770,9 @@
     },
     "done": true
   },
-  "caverns_and_chasms:recipes/building_blocks/lapis_lamp": {
-    "criteria": {
-      "has_glowstone": "2026-01-17 00:22:37 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/redstone_lamp": {
-    "criteria": {
-      "has_glowstone": "2026-01-17 00:22:37 +0000"
-    },
-    "done": true
-  },
-  "regions_unexplored:recipes/building_blocks/magnolia_slab": {
-    "criteria": {
-      "has_magnolia_planks": "2026-01-17 00:02:41 +0000"
-    },
-    "done": true
-  },
-  "supplementaries:recipes/decorations/regions_unexplored/sign_post_magnolia": {
-    "criteria": {
-      "has_item": "2026-01-17 00:02:41 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/ender_eye": {
-    "criteria": {
-      "has_blaze_powder": "2026-01-17 00:27:38 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:iceandfire/dragon_egg": {
-    "criteria": {
-      "egg": "2026-01-16 23:53:36 +0000"
-    },
-    "done": true
-  },
-  "regions_unexplored:recipes/building_blocks/magnolia_wood": {
-    "criteria": {
-      "has_log": "2026-01-17 00:02:41 +0000"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/small_asurine_brick_wall_from_stone_types_asurine_stonecutting": {
     "criteria": {
       "has_stone_types_asurine": "2026-01-17 00:12:05 +0000"
-    },
-    "done": true
-  },
-  "tconstruct:recipes/brewing/common/slime/magma_cream": {
-    "criteria": {
-      "has_blaze_powder": "2026-01-17 00:27:38 +0000"
     },
     "done": true
   },
@@ -8779,12 +8788,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/brown_carpet": {
-    "criteria": {
-      "has_brown_wool": "2026-01-17 00:17:26 +0000"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/asurine_from_stone_types_asurine_stonecutting": {
     "criteria": {
       "has_stone_types_asurine": "2026-01-17 00:12:05 +0000"
@@ -8797,39 +8800,15 @@
     },
     "done": true
   },
-  "regions_unexplored:recipes/building_blocks/magnolia_stairs": {
-    "criteria": {
-      "has_magnolia_planks": "2026-01-17 00:02:41 +0000"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/small_asurine_bricks_from_stone_types_asurine_stonecutting": {
     "criteria": {
       "has_stone_types_asurine": "2026-01-17 00:12:05 +0000"
     },
     "done": true
   },
-  "regions_unexplored:recipes/redstone/magnolia_door": {
-    "criteria": {
-      "has_magnolia_planks": "2026-01-17 00:02:41 +0000"
-    },
-    "done": true
-  },
-  "infernalexp:recipes/building_blocks/dullstone": {
-    "criteria": {
-      "has_dullrocks": "2026-01-17 00:01:59 +0000"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/cut_asurine_brick_slab_from_stone_types_asurine_stonecutting": {
     "criteria": {
       "has_stone_types_asurine": "2026-01-17 00:12:05 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/redstone": {
-    "criteria": {
-      "has_redstone_block": "2026-01-16 23:51:40 +0000"
     },
     "done": true
   },
@@ -8848,24 +8827,6 @@
   "create:recipes/building_blocks/small_asurine_brick_slab_from_stone_types_asurine_stonecutting": {
     "criteria": {
       "has_stone_types_asurine": "2026-01-17 00:12:05 +0000"
-    },
-    "done": true
-  },
-  "regions_unexplored:recipes/redstone/magnolia_pressure_plate": {
-    "criteria": {
-      "has_magnolia_planks": "2026-01-17 00:02:41 +0000"
-    },
-    "done": true
-  },
-  "regions_unexplored:recipes/decorations/magnolia_sign": {
-    "criteria": {
-      "has_magnolia_planks": "2026-01-17 00:02:41 +0000"
-    },
-    "done": true
-  },
-  "caverns_and_chasms:recipes/building_blocks/spinel_lamp": {
-    "criteria": {
-      "has_glowstone": "2026-01-17 00:22:37 +0000"
     },
     "done": true
   },
@@ -8893,15 +8854,477 @@
     },
     "done": true
   },
-  "regions_unexplored:recipes/decorations/magnolia_branch_from_magnolia_log": {
+  "minecraft:recipes/decorations/brown_banner": {
     "criteria": {
-      "has_log": "2026-01-17 00:02:41 +0000"
+      "has_brown_wool": "2026-01-17 00:17:26 +0000"
     },
     "done": true
   },
-  "iceandfire:recipes/misc/dragon_stick": {
+  "minecraft:recipes/decorations/brown_bed": {
     "criteria": {
-      "has_item": "2026-01-16 23:56:18 +0000"
+      "has_brown_wool": "2026-01-17 00:17:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_carpet": {
+    "criteria": {
+      "has_brown_wool": "2026-01-17 00:17:26 +0000"
+    },
+    "done": true
+  },
+  "infernalexp:recipes/building_blocks/polished_glowstone": {
+    "criteria": {
+      "has_glowstone": "2026-01-17 00:22:37 +0000"
+    },
+    "done": true
+  },
+  "caverns_and_chasms:recipes/building_blocks/lapis_lamp": {
+    "criteria": {
+      "has_glowstone": "2026-01-17 00:22:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2026-01-17 00:22:37 +0000"
+    },
+    "done": true
+  },
+  "caverns_and_chasms:recipes/building_blocks/spinel_lamp": {
+    "criteria": {
+      "has_glowstone": "2026-01-17 00:22:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/magma_cream": {
+    "criteria": {
+      "has_blaze_powder": "2026-01-17 00:27:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/fire_charge": {
+    "criteria": {
+      "has_blaze_powder": "2026-01-17 00:27:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ender_eye": {
+    "criteria": {
+      "has_blaze_powder": "2026-01-17 00:27:38 +0000"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/brewing/common/slime/magma_cream": {
+    "criteria": {
+      "has_blaze_powder": "2026-01-17 00:27:38 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/piglin/vulcanic_repeater": {
+    "criteria": {
+      "vulcanic_repeater": "2026-01-17 01:16:12 +0000"
+    },
+    "done": true
+  },
+  "netherexp:recipes/basalt/slab": {
+    "criteria": {
+      "has_item": "2026-01-17 01:18:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_basalt": {
+    "criteria": {
+      "has_basalt": "2026-01-17 01:18:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt": {
+    "criteria": {
+      "has_basalt": "2026-01-17 01:18:10 +0000"
+    },
+    "done": true
+  },
+  "netherexp:recipes/basalt/stairs": {
+    "criteria": {
+      "has_item": "2026-01-17 01:18:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt_from_basalt_stonecutting": {
+    "criteria": {
+      "has_basalt": "2026-01-17 01:18:10 +0000"
+    },
+    "done": true
+  },
+  "caverns_and_chasms:recipes/building_blocks/tuff": {
+    "criteria": {
+      "has_stone": "2026-01-17 01:18:10 +0000"
+    },
+    "done": true
+  },
+  "netherexp:recipes/basalt/wall": {
+    "criteria": {
+      "has_item": "2026-01-17 01:18:10 +0000"
+    },
+    "done": true
+  },
+  "netherexp:nether/ssv_sub_biomes": {
+    "criteria": {
+      "netherexp:black_ice_glaciers": "2026-01-17 01:20:34 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/electron_tube": {
+    "criteria": {
+      "has_item": "2026-01-17 01:23:21 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/rose_quartz_block_from_rose_quartz_stonecutting": {
+    "criteria": {
+      "has_rose_quartz": "2026-01-17 01:23:21 +0000"
+    },
+    "done": true
+  },
+  "spelunkery:recipes/obsidian": {
+    "criteria": {
+      "has_item": "2026-01-17 01:23:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2026-01-17 01:23:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2026-01-17 01:23:43 +0000"
+    },
+    "done": true
+  },
+  "spelunkery:spelunkery/magnetite": {
+    "criteria": {
+      "item": "2026-01-17 01:29:47 +0000"
+    },
+    "done": true
+  },
+  "spelunkery:recipes/raw_magnetite": {
+    "criteria": {
+      "has_item": "2026-01-17 01:29:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_bastion": {
+    "criteria": {
+      "bastion": "2026-01-17 01:32:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2026-01-17 01:33:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_polished_blackstone_bricks": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2026-01-17 01:33:01 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/blackstone_tile": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2026-01-17 01:33:01 +0000"
+    },
+    "done": true
+  },
+  "netherexp:recipes/blackstone/weeping": {
+    "criteria": {
+      "has_item": "2026-01-17 01:33:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2026-01-17 01:33:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2026-01-17 01:33:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2026-01-17 01:33:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2026-01-17 01:33:01 +0000"
+    },
+    "done": true
+  },
+  "netherexp:recipes/blackstone/twisting": {
+    "criteria": {
+      "has_item": "2026-01-17 01:33:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2026-01-17 01:33:01 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/stonecutting/blackstone_tile": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2026-01-17 01:33:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/loot_bastion": {
+    "criteria": {
+      "loot_bastion_other": "2026-01-17 01:33:35 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/cave_tablet": {
+    "criteria": {
+      "cave_tablet": "2026-01-17 01:34:13 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/find_scroll_warforge": {
+    "criteria": {
+      "find": "2026-01-17 01:34:32 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/find_scroll": {
+    "criteria": {
+      "find": "2026-01-17 01:34:32 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:affix/epic": {
+    "criteria": {
+      "sword": "2026-01-17 01:36:05 +0000"
+    },
+    "done": true
+  },
+  "netherexp:recipes/sanctum/gargoyle_statue": {
+    "criteria": {
+      "has_item": "2026-01-17 01:41:31 +0000"
+    },
+    "done": true
+  },
+  "netherexp:recipes/misc/ecto_soul_sand": {
+    "criteria": {
+      "has_item": "2026-01-17 01:41:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/chainmail_helmet": {
+    "criteria": {
+      "has_item": "2026-01-17 01:41:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/chainmail_leggings": {
+    "criteria": {
+      "has_item": "2026-01-17 01:41:37 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/chain": {
+    "criteria": {
+      "has_item": "2026-01-17 01:41:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/chainmail_boots": {
+    "criteria": {
+      "has_item": "2026-01-17 01:41:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/chainmail_chestplate": {
+    "criteria": {
+      "has_item": "2026-01-17 01:41:37 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/misc/yellow_dye_from_tall_yellow_bioshroom": {
+    "criteria": {
+      "has_tall_yellow_bioshroom": "2026-01-17 01:48:29 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/misc/yellow_bioshroom_from_tall_yellow_bioshroom": {
+    "criteria": {
+      "has_tall_yellow_bioshroom": "2026-01-17 01:48:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blackstone_wall": {
+    "criteria": {
+      "has_blackstone": "2026-01-17 01:48:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2026-01-17 01:48:46 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/blackstone_lamp": {
+    "criteria": {
+      "has_blackstone": "2026-01-17 01:48:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_bricks_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2026-01-17 01:48:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2026-01-17 01:48:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_stairs": {
+    "criteria": {
+      "has_blackstone": "2026-01-17 01:48:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2026-01-17 01:48:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_slab": {
+    "criteria": {
+      "has_blackstone": "2026-01-17 01:48:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2026-01-17 01:48:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2026-01-17 01:48:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2026-01-17 01:48:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_polished_blackstone_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2026-01-17 01:48:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2026-01-17 01:48:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone": {
+    "criteria": {
+      "has_blackstone": "2026-01-17 01:48:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2026-01-17 01:48:46 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/building_blocks/blackstone_cluster": {
+    "criteria": {
+      "has_blackstone": "2026-01-17 01:48:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blackstone_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2026-01-17 01:48:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2026-01-17 01:48:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/raw_gold": {
+    "criteria": {
+      "has_raw_gold_block": "2026-01-17 01:51:22 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/netherite_trapdoor": {
+    "criteria": {
+      "has_netherite_scrap": "2026-01-17 02:03:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_ingot": {
+    "criteria": {
+      "has_netherite_scrap": "2026-01-17 02:03:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2026-01-17 02:03:51 +0000"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:recipes/levitation_block": {
+    "criteria": {
+      "has_blazing_eye": "2026-01-17 02:03:42 +0000"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:recipes/blast_amplifier": {
+    "criteria": {
+      "has_blazing_eye": "2026-01-17 02:03:42 +0000"
+    },
+    "done": true
+  },
+  "caverns_and_chasms:recipes/misc/necromium_ingot": {
+    "criteria": {
+      "has_netherite_scrap": "2026-01-17 02:03:51 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/netherite_door": {
+    "criteria": {
+      "has_netherite_scrap": "2026-01-17 02:03:51 +0000"
     },
     "done": true
   },
